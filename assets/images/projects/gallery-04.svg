@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (gallery image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V10" stroke="#14202b" stroke-opacity="0.35" stroke-width="2"/></pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#e9e6df"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="250" width="800" height="60" fill="#cfc8bb"/>
+  <path d="M0 280H800" stroke="#ffffff" stroke-width="2" stroke-dasharray="16 12"/>
+  <rect x="70" y="40" width="660" height="190" fill="none" stroke="#e8862e" stroke-width="2" stroke-dasharray="10 6"/>
+  <rect x="120" y="70" width="220" height="130" fill="#2b3a47"/>
+  <rect x="120" y="70" width="220" height="130" fill="url(#hatch)"/>
+  <rect x="360" y="110" width="120" height="90" fill="#2b3a47" fill-opacity="0.8"/>
+  <path d="M510 70v50M510 150v50M540 70v50M540 150v50M570 70v50M570 150v50M600 70v50M600 150v50M630 70v50M630 150v50M660 70v50M660 150v50M690 70v50M690 150v50M510 120H690M510 150H690" stroke="#14202b" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="90" cy="360" r="24" fill="#8fa597"/>
+  <circle cx="170" cy="380" r="24" fill="#8fa597"/>
+  <circle cx="250" cy="350" r="24" fill="#8fa597"/>
+  <circle cx="560" cy="370" r="24" fill="#8fa597"/>
+  <circle cx="640" cy="400" r="24" fill="#8fa597"/>
+  <circle cx="720" cy="350" r="24" fill="#8fa597"/>
+  <circle cx="400" cy="420" r="24" fill="#8fa597"/>
+  <rect x="300" y="330" width="180" height="150" fill="#dcd6ca" stroke="#14202b" stroke-opacity="0.2"/>
+  <path d="M740 540l12-34 12 34-12-8z" fill="#14202b"/>
+  <circle cx="752" cy="522" r="24" fill="none" stroke="#14202b" stroke-opacity="0.4" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (service image, 1600 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="675" fill="#ece8e1"/>
+  <rect x="0" y="0" width="1200" height="675" fill="url(#grid)"/>
+  <rect x="0" y="580" width="1200" height="95" fill="#d9d2c5"/>
+  <line x1="0" y1="580" x2="1200" y2="580" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <polygon points="250,300 470,150 470,300" fill="#2b3a47"/>
+  <rect x="270" y="300" width="200" height="280" fill="#faf8f4" stroke="#14202b" stroke-opacity="0.25"/>
+  <path d="M300 340h60v70h-60zM380 340h60v70h-60zM300 450h60v70h-60z" fill="url(#glassL)" stroke="#ffffff" stroke-width="3"/>
+  <rect x="386" y="450" width="54" height="130" fill="#e8862e"/>
+  <path d="M470 300H670M470 440H670M470 580H670" fill="none" stroke="#c9a27a" stroke-width="8" stroke-linecap="square"/>
+  <path d="M490 300V580M535 300V580M580 300V580M625 300V580M670 300V580" fill="none" stroke="#c9a27a" stroke-width="8" stroke-linecap="square"/>
+  <path d="M470 150 690 300M520 184v116M570 218v82M620 252v48" fill="none" stroke="#c9a27a" stroke-width="6"/>
+  <path d="M490 440 535 300M580 440 625 300" fill="none" stroke="#a8835e" stroke-width="5"/>
+  <path d="M700 250V580M740 250V580M694 290h52M694 362h52M700 362L740 290M694 434h52M700 434L740 362M694 506h52M700 506L740 434M694 578h52M700 578L740 506" stroke="#14202b" stroke-opacity="0.5" stroke-width="2.5" fill="none"/>
+  <path d="M960 580V150M974 580V150M960 580L974 566M974 566L960 552M960 552L974 538M974 538L960 524M960 524L974 510M974 510L960 496M960 496L974 482M974 482L960 468M960 468L974 454M974 454L960 440M960 440L974 426M974 426L960 412M960 412L974 398M974 398L960 384M960 384L974 370M974 370L960 356M960 356L974 342M974 342L960 328M960 328L974 314M974 314L960 300M960 300L974 286M974 286L960 272M960 272L974 258M974 258L960 244M960 244L974 230M974 230L960 216M960 216L974 202M974 202L960 188M960 188L974 174M974 174L960 160" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <path d="M520 138H1080M520 148H974M520 138v10M520 138L540 148M540 148L560 138M560 138L580 148M580 148L600 138M600 138L620 148M620 148L640 138M640 138L660 148M660 148L680 138M680 138L700 148M700 148L720 138M720 138L740 148M740 148L760 138M760 138L780 148M780 148L800 138M800 138L820 148M820 148L840 138M840 138L860 148M860 148L880 138M880 138L900 148M900 148L920 138M920 138L940 148M940 148L960 138" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <path d="M960 138L967 102L974 138M967 102L674.0 138M967 102L1080 140" fill="none" stroke="#e8862e" stroke-width="1.5"/>
+  <rect x="1054" y="139" width="22" height="22" fill="#c96f22"/>
+  <rect x="956" y="150" width="22" height="14" fill="#e8862e" rx="2"/>
+  <rect x="948" y="572" width="38" height="8" fill="#c96f22"/>
+  <rect x="613" y="148" width="14" height="6" fill="#e8862e"/>
+  <line x1="620" y1="154" x2="620" y2="250" stroke="#e8862e" stroke-width="1.5"/>
+  <rect x="614" y="250" width="12" height="10" fill="#e8862e" rx="2"/>
+  <rect x="580" y="250" width="80" height="10" fill="#c9a27a"/>
+  <line x1="140" y1="580" x2="140" y2="530" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="140" cy="495.44" r="48" fill="#8fa597"/>
+  <circle cx="153.44" cy="505.04" r="29.76" fill="#6f8878" fill-opacity="0.35"/>
+  <path d="M270 110H690M270 103v14M266 114l8 -8M470 103v14M466 114l8 -8M690 103v14M686 114l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+</svg>

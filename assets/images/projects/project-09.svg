@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (project image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#f0ece5"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <polygon points="0,540 0,520 160,505 320,460 480,415 640,370 800,340 800,600 0,600" fill="#d9d2c5"/>
+  <rect x="80" y="510" width="170" height="90" fill="#cfc8bb"/>
+  <rect x="240" y="465" width="170" height="135" fill="#cfc8bb"/>
+  <rect x="400" y="420" width="170" height="180" fill="#cfc8bb"/>
+  <rect x="560" y="375" width="170" height="225" fill="#cfc8bb"/>
+  <rect x="90" y="360" width="150" height="150" fill="#fbfaf7" stroke="#14202b" stroke-opacity="0.2"/>
+  <rect x="86" y="352" width="158" height="8" fill="#14202b"/>
+  <rect x="92" y="342" width="146" height="10" fill="#8fa597"/>
+  <rect x="106" y="384" width="118" height="54" fill="url(#glassL)"/>
+  <path d="M165 384v54" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="106" y="456" width="56" height="54" fill="url(#glassL)"/>
+  <rect x="180" y="456" width="32" height="54" fill="#2b3a47"/>
+  <rect x="250" y="315" width="150" height="150" fill="#fbfaf7" stroke="#14202b" stroke-opacity="0.2"/>
+  <rect x="246" y="307" width="158" height="8" fill="#14202b"/>
+  <rect x="252" y="297" width="146" height="10" fill="#8fa597"/>
+  <rect x="266" y="339" width="118" height="54" fill="url(#glassL)"/>
+  <path d="M325 339v54" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="266" y="411" width="56" height="54" fill="url(#glassL)"/>
+  <rect x="340" y="411" width="32" height="54" fill="#2b3a47"/>
+  <rect x="410" y="270" width="150" height="150" fill="#fbfaf7" stroke="#14202b" stroke-opacity="0.2"/>
+  <rect x="406" y="262" width="158" height="8" fill="#14202b"/>
+  <rect x="412" y="252" width="146" height="10" fill="#8fa597"/>
+  <rect x="426" y="294" width="118" height="54" fill="url(#glassL)"/>
+  <path d="M485 294v54" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="426" y="366" width="56" height="54" fill="url(#glassL)"/>
+  <rect x="500" y="366" width="32" height="54" fill="#e8862e"/>
+  <rect x="570" y="225" width="150" height="150" fill="#fbfaf7" stroke="#14202b" stroke-opacity="0.2"/>
+  <rect x="566" y="217" width="158" height="8" fill="#14202b"/>
+  <rect x="572" y="207" width="146" height="10" fill="#8fa597"/>
+  <rect x="586" y="249" width="118" height="54" fill="url(#glassL)"/>
+  <path d="M645 249v54" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="586" y="321" width="56" height="54" fill="url(#glassL)"/>
+  <rect x="660" y="321" width="32" height="54" fill="#2b3a47"/>
+  <line x1="740" y1="342" x2="740" y2="308" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="740" cy="286.4" r="30" fill="#8fa597"/>
+  <circle cx="748.4" cy="292.4" r="18.6" fill="#6f8878" fill-opacity="0.35"/>
+  <line x1="40" y1="520" x2="40" y2="490" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="40" cy="471.28" r="26" fill="#8fa597"/>
+  <circle cx="47.28" cy="476.48" r="16.12" fill="#6f8878" fill-opacity="0.35"/>
+  <path d="M700 360V225M693 360h14M696 364l8 -8M693 225h14M696 229l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+</svg>

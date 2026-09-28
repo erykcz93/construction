@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (blog image, 1200 x 750 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" fill="#e9e4da"/>
+  <rect x="0" y="0" width="800" height="500" fill="url(#grid)"/>
+  <polygon points="120,330 520,250 700,330 300,430" fill="#f4f7f9" stroke="#14202b" stroke-opacity="0.2"/>
+  <path d="M200 340l120-24M240 360l120-24M280 380l120-24M420 300l100 20" stroke="#3e566b" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M300 180a110 110 0 0 1 220 0z" fill="#e8862e"/>
+  <path d="M392 72v108M428 72v108" stroke="#c96f22" stroke-width="8"/>
+  <rect x="270" y="172" width="280" height="22" rx="11" fill="#c96f22"/>
+  <rect x="560" y="150" width="110" height="150" fill="#f7f5f1" stroke="#14202b" stroke-opacity="0.3" rx="6"/>
+  <rect x="590" y="138" width="50" height="20" fill="#2b3a47" rx="4"/>
+  <path d="M580 190h70M580 215h70M580 240h50" stroke="#14202b" stroke-opacity="0.35" stroke-width="3"/>
+</svg>

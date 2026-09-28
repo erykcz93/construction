@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (project image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <pattern id="rib" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 0V10" stroke="#14202b" stroke-opacity="0.12"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#e8e3da"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="500" width="800" height="100" fill="#d9d2c5"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="0" y="500" width="800" height="26" fill="#cfc8bb"/>
+  <rect x="90" y="262" width="620" height="238" fill="#d7dee4"/>
+  <rect x="90" y="262" width="620" height="238" fill="url(#rib)"/>
+  <polygon points="90,262 90,226 152,262" fill="#2b3a47"/>
+  <path d="M93 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="152,262 152,226 214,262" fill="#2b3a47"/>
+  <path d="M155 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="214,262 214,226 276,262" fill="#2b3a47"/>
+  <path d="M217 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="276,262 276,226 338,262" fill="#2b3a47"/>
+  <path d="M279 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="338,262 338,226 400,262" fill="#2b3a47"/>
+  <path d="M341 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="400,262 400,226 462,262" fill="#2b3a47"/>
+  <path d="M403 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="462,262 462,226 524,262" fill="#2b3a47"/>
+  <path d="M465 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="524,262 524,226 586,262" fill="#2b3a47"/>
+  <path d="M527 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="586,262 586,226 648,262" fill="#2b3a47"/>
+  <path d="M589 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="648,262 648,226 710,262" fill="#2b3a47"/>
+  <path d="M651 258V232" stroke="#a9bccb" stroke-width="5"/>
+  <rect x="90" y="262" width="620" height="238" fill="none" stroke="#14202b" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="90" y="330" width="120" height="170" fill="#f5f6f7" stroke="#14202b" stroke-opacity="0.25"/>
+  <path d="M102 344h28v36h-28zM138 344h28v36h-28zM174 344h28v36h-28zM102 392h28v36h-28zM138 392h28v36h-28zM174 392h28v36h-28zM102 440h28v36h-28zM138 440h28v36h-28zM174 440h28v36h-28z" fill="url(#glassL)"/>
+  <rect x="240" y="404" width="58" height="96" fill="#8b9aa7"/>
+  <path d="M240 412h58M240 420h58M240 428h58M240 436h58M240 444h58M240 452h58M240 460h58M240 468h58M240 476h58M240 484h58M240 492h58" stroke="#14202b" stroke-opacity="0.18"/>
+  <rect x="236" y="396" width="66" height="8" fill="#2b3a47"/>
+  <rect x="238" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="294" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="316" y="404" width="58" height="96" fill="#8b9aa7"/>
+  <path d="M316 412h58M316 420h58M316 428h58M316 436h58M316 444h58M316 452h58M316 460h58M316 468h58M316 476h58M316 484h58M316 492h58" stroke="#14202b" stroke-opacity="0.18"/>
+  <rect x="312" y="396" width="66" height="8" fill="#2b3a47"/>
+  <rect x="314" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="370" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="392" y="404" width="58" height="96" fill="#8b9aa7"/>
+  <path d="M392 412h58M392 420h58M392 428h58M392 436h58M392 444h58M392 452h58M392 460h58M392 468h58M392 476h58M392 484h58M392 492h58" stroke="#14202b" stroke-opacity="0.18"/>
+  <rect x="388" y="396" width="66" height="8" fill="#2b3a47"/>
+  <rect x="390" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="446" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="468" y="404" width="58" height="96" fill="#8b9aa7"/>
+  <path d="M468 412h58M468 420h58M468 428h58M468 436h58M468 444h58M468 452h58M468 460h58M468 468h58M468 476h58M468 484h58M468 492h58" stroke="#14202b" stroke-opacity="0.18"/>
+  <rect x="464" y="396" width="66" height="8" fill="#2b3a47"/>
+  <rect x="466" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="522" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="544" y="404" width="58" height="96" fill="#8b9aa7"/>
+  <path d="M544 412h58M544 420h58M544 428h58M544 436h58M544 444h58M544 452h58M544 460h58M544 468h58M544 476h58M544 484h58M544 492h58" stroke="#14202b" stroke-opacity="0.18"/>
+  <rect x="540" y="396" width="66" height="8" fill="#2b3a47"/>
+  <rect x="542" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="598" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="620" y="404" width="58" height="96" fill="#8b9aa7"/>
+  <path d="M620 412h58M620 420h58M620 428h58M620 436h58M620 444h58M620 452h58M620 460h58M620 468h58M620 476h58M620 484h58M620 492h58" stroke="#14202b" stroke-opacity="0.18"/>
+  <rect x="616" y="396" width="66" height="8" fill="#2b3a47"/>
+  <rect x="618" y="480" width="6" height="20" fill="#e8862e"/>
+  <rect x="674" y="480" width="6" height="20" fill="#e8862e"/>
+  <path d="M90 190H710M90 183v14M86 194l8 -8M214 183v14M210 194l8 -8M338 183v14M334 194l8 -8M462 183v14M458 194l8 -8M586 183v14M582 194l8 -8M710 183v14M706 194l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+  <line x1="50" y1="500" x2="50" y2="470" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="50" cy="451.28" r="26" fill="#8fa597"/>
+  <circle cx="57.28" cy="456.48" r="16.12" fill="#6f8878" fill-opacity="0.35"/>
+  <line x1="750" y1="500" x2="750" y2="466" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="750" cy="444.4" r="30" fill="#8fa597"/>
+  <circle cx="758.4" cy="450.4" r="18.6" fill="#6f8878" fill-opacity="0.35"/>
+</svg>

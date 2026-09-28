@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Documentation | Aldervane Construction HTML Template</title>
+    <meta name="description" content="Documentation for the Aldervane construction company HTML template: installation, customisation, contact form setup, SEO, accessibility and licensing.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="../assets/images/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/docs.css">
+</head>
+<body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="doc-header">
+        <div class="doc-header__inner">
+            <div class="doc-header__brand">
+                <img src="../assets/images/logo/logo-mark.svg" alt="" width="48" height="48">
+                <div>
+                    <h1 class="doc-header__title">Aldervane — Template Documentation</h1>
+                    <p class="doc-header__subtitle">Construction company HTML5 website template</p>
+                </div>
+            </div>
+            <ul class="doc-header__meta" aria-label="Template information">
+                <li class="badge">Version 1.0.0</li>
+                <li class="badge badge--outline">Updated 28 September 2026</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="doc-layout">
+        <nav class="doc-nav" aria-labelledby="toc-title">
+            <h2 class="doc-nav__title" id="toc-title">Contents</h2>
+            <ol class="doc-nav__list">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#folder-structure">Folder Structure</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#company-name">Editing Company Name</a></li>
+                <li><a href="#logo">Changing Logo</a></li>
+                <li><a href="#colors">Changing Colors</a></li>
+                <li><a href="#changing-fonts">Changing Google Fonts</a></li>
+                <li><a href="#navigation">Editing Navigation</a></li>
+                <li><a href="#text">Editing Text</a></li>
+                <li><a href="#images">Replacing Images</a></li>
+                <li><a href="#services">Adding Services</a></li>
+                <li><a href="#projects">Adding Projects</a></li>
+                <li><a href="#team">Editing Team</a></li>
+                <li><a href="#contact-form">Contact Form Configuration</a></li>
+                <li><a href="#php">PHP Requirements</a></li>
+                <li><a href="#seo">SEO Configuration</a></li>
+                <li><a href="#favicon">Favicon</a></li>
+                <li><a href="#google-fonts">Google Fonts</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#credits">Credits</a></li>
+                <li><a href="#licenses">Licenses</a></li>
+                <li><a href="#troubleshooting">Troubleshooting</a></li>
+                <li><a href="#support">Support</a></li>
+            </ol>
+        </nav>
+
+        <main class="doc-main" id="content" tabindex="-1">
+
+            <!-- 1 ============================================================ -->
+            <section class="doc-section" id="introduction" aria-labelledby="introduction-title">
+                <h2 id="introduction-title"><span class="doc-section__number">01</span> Introduction</h2>
+                <p>Thank you for choosing <strong>Aldervane</strong>, a premium HTML5 template for construction companies, general contractors, builders and renovation firms. It contains 13 pages and a working PHP contact form. It is built with plain HTML, CSS and vanilla JavaScript, so there is nothing to install, compile or update.</p>
+                <div class="callout">
+                    <p><strong>Demo content:</strong> All company names, persons, testimonials, statistics and project descriptions included in this template are fictional demo content and should be replaced by the end user.</p>
+                </div>
+                <h3>Highlights</h3>
+                <ul>
+                    <li>All colours, fonts, spacing and sizes are controlled from <code>assets/css/variables.css</code>.</li>
+                    <li>Responsive, mobile-first layouts, tested at 320, 360, 375, 390, 414, 480, 768, 1024, 1280, 1440 and 1920 px.</li>
+                    <li>Built to WCAG 2.2 AA practices: keyboard navigation, visible focus, checked colour contrast, reduced-motion support and screen-reader friendly components.</li>
+                    <li>No inline JavaScript or CSS, one JavaScript file per feature, and no external libraries.</li>
+                    <li>Secure PHP contact form: CSRF token, honeypot, rate limiting and header-injection protection.</li>
+                    <li>SEO-ready: unique titles and descriptions, Open Graph and Twitter/X cards, canonical URLs, sitemap, robots file and structured data.</li>
+                    <li>All icons and illustrations are original. The only external resource is Google Fonts.</li>
+                </ul>
+                <h3>Browser support</h3>
+                <p>Current versions of Chrome, Edge, Firefox and Safari on desktop, Safari on iOS and Chrome on Android. Internet Explorer is not supported.</p>
+            </section>
+
+            <!-- 2 ============================================================ -->
+            <section class="doc-section" id="folder-structure" aria-labelledby="folder-structure-title">
+                <h2 id="folder-structure-title"><span class="doc-section__number">02</span> Folder Structure</h2>
+<pre tabindex="0"><code>construction-template/
+├── index.html                Homepage
+├── about.html                About the company
+├── services.html             Services overview
+├── service-details.html      Single service template
+├── projects.html             Portfolio with category filter
+├── project-details.html      Project case-study template
+├── team.html                 Team
+├── blog.html                 Blog listing
+├── blog-details.html         Article template
+├── faq.html                  Frequently asked questions
+├── contact.html              Contact page with form
+├── 404.html                  Error page
+├── privacy-policy.html       Privacy policy TEMPLATE
+├── robots.txt                Search engine rules
+├── sitemap.xml               List of pages for search engines
+├── site.webmanifest          Icons and colours for mobile devices
+├── .htaccess                 Optional Apache settings
+├── assets/
+│   ├── css/
+│   │   ├── reset.css         Browser normalisation
+│   │   ├── variables.css     ★ Design tokens: colours, fonts, spacing
+│   │   ├── base.css          Typography, links, focus, dark theme
+│   │   ├── layout.css        Container, grids, header, menu, footer
+│   │   ├── components.css    Buttons, cards, forms, accordion…
+│   │   ├── pages.css         Page-specific sections
+│   │   ├── utilities.css     Small helper classes
+│   │   ├── animations.css    Reveal effects, reduced motion
+│   │   └── noscript.css      Fallback when JavaScript is off
+│   ├── js/
+│   │   ├── main.js           Footer year, header shadow
+│   │   ├── navigation.js     Mobile menu
+│   │   ├── accordion.js      FAQ accordion
+│   │   ├── projects-filter.js Portfolio filter
+│   │   ├── form-validation.js Form validation and sending
+│   │   ├── animations.js     Reveal on scroll
+│   │   └── counters.js       Animated numbers
+│   ├── images/
+│   │   ├── logo/  favicon/  hero/  about/  services/
+│   │   └── projects/  team/  blog/  social/  misc/
+│   └── icons/                27 SVG icons
+├── php/
+│   ├── contact.php           Form handler
+│   ├── config.example.php    Copy to config.php
+│   └── .htaccess             Protects the configuration
+├── documentation/            This documentation (do not upload)
+├── licenses/
+│   └── THIRD_PARTY_NOTICES.md
+├── README.md
+└── CHANGELOG.md</code></pre>
+                <p>Media queries are written mobile-first and kept next to the component they belong to, so each component can be edited in one place. Breakpoints: 30em (480 px), 37.5em (600 px), 40em (640 px), 48em (768 px), 64em (1024 px), 75em (1200 px).</p>
+            </section>
+
+            <!-- 3 ============================================================ -->
+            <section class="doc-section" id="installation" aria-labelledby="installation-title">
+                <h2 id="installation-title"><span class="doc-section__number">03</span> Installation</h2>
+                <h3>Preview on your computer</h3>
+                <p>You can open <code>index.html</code> directly in a browser to look around. The contact form needs PHP, so use a local server to test everything:</p>
+<pre tabindex="0"><code># Inside the construction-template folder:
+php -S localhost:8000
+# then open http://localhost:8000 in your browser</code></pre>
+                <p>No PHP installed? Download it from php.net, or use a local server package such as XAMPP, MAMP or Laragon. To preview the pages only (without the form), any static server works, for example <code>python3 -m http.server 8000</code>.</p>
+                <h3>Publish your website</h3>
+                <ol>
+                    <li>Replace the demo content: texts, contact details and images.</li>
+                    <li>Configure the contact form (see <a href="#contact-form">Contact Form Configuration</a>).</li>
+                    <li>Replace <code>https://www.example.com</code> with your domain (see <a href="#seo">SEO Configuration</a>).</li>
+                    <li>Upload the files to the public folder of your hosting (often <code>public_html</code> or <code>www</code>) with your host's file manager or an FTP/SFTP client. Upload everything except the <code>documentation/</code> folder.</li>
+                    <li>Visit your domain and send a test message through the contact form.</li>
+                </ol>
+                <div class="callout callout--info">
+                    <p>The <code>.htaccess</code> files are hidden on some systems. Make sure your FTP client shows hidden files so they are uploaded too. They are optional and only used by Apache servers.</p>
+                </div>
+            </section>
+
+            <!-- 4 ============================================================ -->
+            <section class="doc-section" id="company-name" aria-labelledby="company-name-title">
+                <h2 id="company-name-title"><span class="doc-section__number">04</span> Editing Company Name</h2>
+                <p>The fictional demo company is called <strong>Aldervane Construction</strong>. The quickest way to rename it is your code editor's <em>Find and Replace in files</em> feature (for example in VS Code: <code>Ctrl/Cmd + Shift + H</code>):</p>
+                <ol>
+                    <li>Replace <code>Aldervane Construction</code> with your full company name.</li>
+                    <li>Replace the remaining <code>Aldervane</code> occurrences, such as the logo text, the large outlined footer wordmark and the About page title.</li>
+                </ol>
+                <p>The name appears in:</p>
+                <ul>
+                    <li>the logo text in the header and footer of every page: <code>&lt;span class="logo__name"&gt;</code> and <code>&lt;span class="logo__tagline"&gt;</code>;</li>
+                    <li>the decorative footer wordmark: <code>&lt;p class="site-footer__wordmark" aria-hidden="true"&gt;</code>;</li>
+                    <li>page titles, <code>og:site_name</code> and the copyright line;</li>
+                    <li>the structured data in the <code>&lt;head&gt;</code> of <code>index.html</code>;</li>
+                    <li><code>site.webmanifest</code> (<code>name</code> and <code>short_name</code>);</li>
+                    <li><code>php/config.php</code> (<code>recipient_name</code>) and the consent text of the forms.</li>
+                </ul>
+                <h3>Contact details</h3>
+                <p>Replace the demo phone number <code>+1 (202) 555-0147</code>, the <code>tel:+12025550147</code> links, the email <code>hello@example.com</code>, the address <code>1250 Foundry Avenue…</code> and the opening hours in the same way. They appear in the top bar, the mobile menu, the footer, <code>index.html</code>, <code>contact.html</code> and the sidebars. Social profile links are in the footer, marked with the comment <code>Social profiles</code>.</p>
+            </section>
+
+            <!-- 5 ============================================================ -->
+            <section class="doc-section" id="logo" aria-labelledby="logo-title">
+                <h2 id="logo-title"><span class="doc-section__number">05</span> Changing Logo</h2>
+                <p>The logo has two parts: a square mark (<code>assets/images/logo/logo-mark.svg</code>) and live text. The text makes renaming easy and always matches the site font.</p>
+                <h3>Option A — replace only the mark</h3>
+                <p>Save your square symbol as <code>assets/images/logo/logo-mark.svg</code> (SVG recommended; a 96 × 96 px PNG or WebP also works if you update the file name). It is displayed at 40 × 40 px.</p>
+                <h3>Option B — use a complete logo image</h3>
+                <p>Replace the content of the <code>.logo</code> link in the header and footer of each page:</p>
+<pre tabindex="0"><code>&lt;a class="logo" href="index.html"&gt;
+    &lt;img src="assets/images/logo/logo.svg" alt="Your Company" width="180" height="40"&gt;
+&lt;/a&gt;</code></pre>
+                <p>Use a meaningful <code>alt</code> text (your company name). If the footer background is dark, use a light version of your logo there, for example <code>logo-light.svg</code>.</p>
+            </section>
+
+            <!-- 6 ============================================================ -->
+            <section class="doc-section" id="colors" aria-labelledby="colors-title">
+                <h2 id="colors-title"><span class="doc-section__number">06</span> Changing Colors</h2>
+                <p>All colours are CSS custom properties at the top of <code>assets/css/variables.css</code>. Change a value once and it updates across all pages.</p>
+                <div class="table-wrap" role="region" aria-labelledby="colors-caption" tabindex="0">
+                    <table>
+                        <caption class="visually-hidden" id="colors-caption">Colour tokens</caption>
+                        <thead>
+                            <tr><th scope="col">Token</th><th scope="col">Default</th><th scope="col">Used for</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>--color-primary</code></td><td><span class="swatch swatch--primary"></span>#14202b</td><td>Dark sections, footer, headings</td></tr>
+                            <tr><td><code>--color-primary-light</code></td><td><span class="swatch swatch--primary-light"></span>#1e2e3d</td><td>Cards on dark sections</td></tr>
+                            <tr><td><code>--color-secondary</code></td><td><span class="swatch swatch--secondary"></span>#3e566b</td><td>Secondary accents, hover of dark buttons</td></tr>
+                            <tr><td><code>--color-accent</code></td><td><span class="swatch swatch--accent"></span>#e8862e</td><td>Primary buttons, highlights, icon tiles</td></tr>
+                            <tr><td><code>--color-accent-hover</code></td><td><span class="swatch swatch--accent-hover"></span>#f29a45</td><td>Primary button hover</td></tr>
+                            <tr><td><code>--color-accent-strong</code></td><td><span class="swatch swatch--accent-strong"></span>#9e4f0e</td><td>Accent-coloured text and links on light backgrounds</td></tr>
+                            <tr><td><code>--color-accent-soft</code></td><td><span class="swatch swatch--accent-soft"></span>#fbebdc</td><td>Tinted backgrounds, tags</td></tr>
+                            <tr><td><code>--color-background</code></td><td><span class="swatch swatch--background"></span>#f4f2ee</td><td>Page background</td></tr>
+                            <tr><td><code>--color-surface</code></td><td><span class="swatch swatch--surface"></span>#ffffff</td><td>Cards, forms</td></tr>
+                            <tr><td><code>--color-surface-alt</code></td><td><span class="swatch swatch--surface-alt"></span>#eae6de</td><td>Alternate section background</td></tr>
+                            <tr><td><code>--color-text</code></td><td><span class="swatch swatch--text"></span>#1a2530</td><td>Body text</td></tr>
+                            <tr><td><code>--color-muted</code></td><td><span class="swatch swatch--muted"></span>#56616c</td><td>Secondary text</td></tr>
+                            <tr><td><code>--color-border</code></td><td><span class="swatch swatch--border"></span>#d8d2c6</td><td>Dividers, card borders</td></tr>
+                            <tr><td><code>--color-border-strong</code></td><td><span class="swatch swatch--border-strong"></span>#78818b</td><td>Form field borders</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3>Keep the colours accessible</h3>
+                <ul>
+                    <li>Primary buttons use dark text (<code>--color-primary</code>) on <code>--color-accent</code>. Keep a contrast ratio of at least <strong>4.5:1</strong> between them. If you choose a dark accent colour, change the text colour of <code>.btn--primary</code> in <code>components.css</code> to white.</li>
+                    <li><code>--color-accent-strong</code> is used for small accent-coloured text on light backgrounds and needs at least 4.5:1 against <code>--color-background</code> and <code>--color-surface</code>.</li>
+                    <li>Form field borders (<code>--color-border-strong</code>) need at least 3:1 against the background.</li>
+                    <li>You can check contrast with any online WCAG contrast checker.</li>
+                </ul>
+                <h3>Dark sections</h3>
+                <p>Add the class <code>theme-dark</code> to any section to switch it to the dark colour scheme. Components inside adapt automatically. Add <code>bg-grid</code> for the subtle blueprint grid.</p>
+                <h3>Colours inside images</h3>
+                <p>The SVG illustrations and icons have their own colours because they are image files. Icons are drawn in <code>#14202b</code> and turn white automatically inside <code>theme-dark</code> sections. To recolour an icon set, find and replace <code>#14202b</code> in <code>assets/icons/*.svg</code>. The illustrations are placeholders meant to be replaced by photos (see <a href="#images">Replacing Images</a>). Also update <code>theme-color</code> in the page heads and the colours in <code>site.webmanifest</code>.</p>
+            </section>
+
+            <!-- 7 ============================================================ -->
+            <section class="doc-section" id="changing-fonts" aria-labelledby="changing-fonts-title">
+                <h2 id="changing-fonts-title"><span class="doc-section__number">07</span> Changing Google Fonts</h2>
+                <p>Two families are used: <strong>Archivo</strong> for headings and <strong>Inter</strong> for text. To change them:</p>
+                <ol>
+                    <li>Choose fonts on fonts.google.com and check that their license allows commercial use (most use the SIL Open Font License).</li>
+                    <li>Replace the Google Fonts stylesheet link in the <code>&lt;head&gt;</code> of every page:
+<pre tabindex="0"><code>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600..800&amp;amp;family=Inter:wght@400..700&amp;amp;display=swap"&gt;</code></pre>
+                    </li>
+                    <li>Update the font tokens in <code>assets/css/variables.css</code>:
+<pre tabindex="0"><code>--font-heading: "Your Heading Font", "Helvetica Neue", Arial, sans-serif;
+--font-body: "Your Body Font", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;</code></pre>
+                    </li>
+                    <li>Keep <code>&amp;display=swap</code> in the URL so text stays visible while fonts load.</li>
+                    <li>Update <code>licenses/THIRD_PARTY_NOTICES.md</code> with the new fonts and their licenses.</li>
+                </ol>
+                <h3>Self-hosting the fonts (recommended for strict privacy requirements)</h3>
+                <p>Loading fonts from Google sends visitors' IP addresses to Google. To avoid this, host the fonts yourself:</p>
+                <ol>
+                    <li>Download the font files (WOFF2 format) and keep the license file (<code>OFL.txt</code>) that comes with them.</li>
+                    <li>Put them in a new folder such as <code>assets/fonts/</code>.</li>
+                    <li>Create <code>assets/css/fonts.css</code> with <code>@font-face</code> rules (include <code>font-display: swap;</code>) and link it before <code>variables.css</code>.</li>
+                    <li>Remove the two <code>preconnect</code> links and the Google Fonts stylesheet link from every page.</li>
+                    <li>Remove the Google Fonts item from the privacy policy and update the third-party notices.</li>
+                </ol>
+            </section>
+
+            <!-- 8 ============================================================ -->
+            <section class="doc-section" id="navigation" aria-labelledby="navigation-title">
+                <h2 id="navigation-title"><span class="doc-section__number">08</span> Editing Navigation</h2>
+                <p>The main menu is inside <code>&lt;nav class="site-nav" id="site-nav"&gt;</code> near the top of every page. The same markup is used for the desktop bar and the mobile menu, so there is only one list to edit per page.</p>
+<pre tabindex="0"><code>&lt;li class="site-nav__item"&gt;&lt;a class="site-nav__link" href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;</code></pre>
+                <ul>
+                    <li>Mark the current page with <code>aria-current="page"</code> on its link. This highlights it visually and tells screen readers which page is open.</li>
+                    <li>The desktop menu appears from 1200 px. If you add many items, check that they still fit, or change the <code>75em</code> breakpoints in <code>layout.css</code> and <code>navigation.js</code> together.</li>
+                    <li>The mobile menu also shows a quote button and contact links (<code>.site-nav__extra</code>).</li>
+                    <li>Footer links are in <code>&lt;nav class="site-footer__col"&gt;</code> blocks at the bottom of every page.</li>
+                </ul>
+                <div class="callout callout--info">
+                    <p>Because this is a static template, the header and footer are repeated on each page. Use "Find and Replace in files" to update them all at once.</p>
+                </div>
+            </section>
+
+            <!-- 9 ============================================================ -->
+            <section class="doc-section" id="text" aria-labelledby="text-title">
+                <h2 id="text-title"><span class="doc-section__number">09</span> Editing Text</h2>
+                <p>All content is plain HTML. Every section starts with a comment such as <code>&lt;!-- Services --&gt;</code>, so it is easy to find in the file.</p>
+                <ul>
+                    <li><strong>Headings:</strong> each page has one <code>&lt;h1&gt;</code>. Sections use <code>&lt;h2&gt;</code> and cards use <code>&lt;h3&gt;</code>. Keep this order; do not skip levels to get a smaller font size. Use CSS instead.</li>
+                    <li><strong>Section labels:</strong> the small labels above headings (for example "02 — What we do") use <code>&lt;p class="eyebrow"&gt;&lt;span class="eyebrow__index"&gt;02&lt;/span&gt;What we do&lt;/p&gt;</code>. The number is optional.</li>
+                    <li><strong>Statistics:</strong> the counters use the final value both in the text and in <code>data-counter</code>. Update both, for example <code>&lt;span data-counter="640"&gt;640&lt;/span&gt;</code>. For decimals add <code>data-decimals="1"</code>.</li>
+                    <li><strong>Meta tags:</strong> each page has its own <code>&lt;title&gt;</code>, <code>meta description</code> and Open Graph and Twitter texts in the <code>&lt;head&gt;</code>. Update them when you change the page content.</li>
+                    <li><strong>Reveal animation:</strong> add <code>data-reveal</code> to an element to fade it in when it scrolls into view, or remove the attribute to disable it.</li>
+                </ul>
+            </section>
+
+            <!-- 10 =========================================================== -->
+            <section class="doc-section" id="images" aria-labelledby="images-title">
+                <h2 id="images-title"><span class="doc-section__number">10</span> Replacing Images</h2>
+                <p>All images are original SVG placeholders, drawn so the template is safe to license. Replace them with your own photos (you must own them or hold a license that covers your use). Recommended formats: <strong>WebP</strong> or <strong>AVIF</strong> for photos, <strong>SVG</strong> for logos and graphics.</p>
+                <div class="table-wrap" role="region" aria-labelledby="images-caption" tabindex="0">
+                    <table>
+                        <caption class="visually-hidden" id="images-caption">Images to replace</caption>
+                        <thead>
+                            <tr><th scope="col">File (in <code>assets/images/</code>)</th><th scope="col">Used on</th><th scope="col">Recommended size</th><th scope="col">Format</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>hero/hero-building.svg</code></td><td>Homepage hero</td><td>1440 × 1280 px (9:8)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>about/about-site.svg</code></td><td>Homepage: about section</td><td>1200 × 1500 px (4:5)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>about/about-story.svg</code></td><td>About: our story</td><td>1200 × 900 px (4:3)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>services/service-detail-main.svg</code></td><td>Service details: main image</td><td>1600 × 900 px (16:9)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>services/service-detail-plan.svg</code></td><td>Services page; figure in the blog article</td><td>1200 × 900 px (4:3)</td><td>WebP / AVIF / SVG</td></tr>
+                            <tr><td><code>projects/project-01.svg</code> … <code>project-09.svg</code></td><td>Project cards (projects page, homepage)</td><td>1200 × 900 px (4:3)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>projects/project-02-wide.svg</code></td><td>Project details: main banner</td><td>1600 × 800 px (2:1)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>projects/gallery-01.svg</code> … <code>gallery-06.svg</code></td><td>Project details: gallery</td><td>1200 × 900 px (4:3)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>team/team-01.svg</code> … <code>team-08.svg</code></td><td>Team, About and homepage cards; blog author photo</td><td>800 × 1000 px (4:5)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>blog/blog-01.svg</code> … <code>blog-06.svg</code></td><td>Blog cards and article header</td><td>1200 × 750 px (16:10)</td><td>WebP / AVIF</td></tr>
+                            <tr><td><code>misc/map-placeholder.svg</code></td><td>Contact: location</td><td>Map embed, or 1600 × 1000 px (8:5)</td><td>WebP / SVG</td></tr>
+                            <tr><td><code>misc/404-illustration.svg</code></td><td>404 page</td><td>560 × 360 px</td><td>SVG</td></tr>
+                            <tr><td><code>hero/page-hero-lines.svg</code>, <code>misc/cta-structure.svg</code></td><td>Decorative backgrounds (set in CSS)</td><td>Keep or replace with your own line drawing</td><td>SVG</td></tr>
+                            <tr><td><code>logo/logo-mark.svg</code></td><td>Header and footer logo</td><td>Square, displayed at 40 × 40 px</td><td>SVG</td></tr>
+                            <tr><td><code>social/og-image.jpg</code></td><td>Preview when a page is shared on social media</td><td>1200 × 630 px</td><td>JPG / PNG</td></tr>
+                            <tr><td><code>favicon/*</code></td><td>Browser tab and home-screen icons</td><td>See <a href="#favicon">Favicon</a></td><td>SVG / ICO / PNG</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p><strong>Demo projects:</strong> 01 Cedar Row Townhouses, 02 Harbor Point Office Campus, 03 Linden Street Loft, 04 Northfield Logistics Hub, 05 Maple Court Residence, 06 Quarry Lane Retail Pavilion, 07 Old Mill Apartments, 08 Riverside Fabrication Plant, 09 Hillside Terrace Homes.</p>
+                <h3>How to replace an image</h3>
+                <ol>
+                    <li>Export your photo at the recommended size, compressed as WebP (quality 75–82 is usually enough) or AVIF.</li>
+                    <li>Put it in the same folder, for example <code>assets/images/projects/cedar-row.webp</code>.</li>
+                    <li>Update the <code>src</code>, <code>width</code>, <code>height</code> and <code>alt</code> attributes. Keeping the width and height of the new file prevents layout shift.</li>
+                </ol>
+<pre tabindex="0"><code>&lt;img class="project-card__image" src="assets/images/projects/cedar-row.webp"
+     alt="Three new terraced townhouses with timber cladding"
+     width="1200" height="900" loading="lazy" decoding="async"&gt;</code></pre>
+                <p>To offer AVIF with a WebP fallback, use a <code>&lt;picture&gt;</code> element and keep the same class on the <code>&lt;img&gt;</code>:</p>
+<pre tabindex="0"><code>&lt;picture&gt;
+    &lt;source srcset="assets/images/projects/cedar-row.avif" type="image/avif"&gt;
+    &lt;img class="project-card__image" src="assets/images/projects/cedar-row.webp" alt="…" width="1200" height="900" loading="lazy" decoding="async"&gt;
+&lt;/picture&gt;</code></pre>
+                <ul>
+                    <li>Keep <code>loading="lazy"</code> on images below the fold. Do <strong>not</strong> lazy-load the first large image of a page (hero, banners). The homepage hero uses <code>fetchpriority="high"</code>.</li>
+                    <li>Alt text should describe what the photo shows. Use <code>alt=""</code> only for decorative images, or when the same information is written next to the image. Team photos use <code>alt=""</code> because the person's name appears right below.</li>
+                    <li>Cards crop images automatically (<code>object-fit: cover</code>), so a slightly different ratio still fits.</li>
+                </ul>
+            </section>
+
+            <!-- 11 =========================================================== -->
+            <section class="doc-section" id="services" aria-labelledby="services-title">
+                <h2 id="services-title"><span class="doc-section__number">11</span> Adding Services</h2>
+                <ol>
+                    <li>In <code>services.html</code>, copy one complete <code>&lt;li id="…"&gt; … &lt;/li&gt;</code> block inside the services list.</li>
+                    <li>Give it a new, unique <code>id</code> (lowercase, words separated by hyphens). The id is used by links such as <code>services.html#interior-finishing</code>.</li>
+                    <li>Change the icon (any file from <code>assets/icons/</code>), the number, the title, the description and the link.</li>
+                    <li>Update the hidden link text (<code>&lt;span class="visually-hidden"&gt;</code>) so screen readers announce which service the link belongs to.</li>
+                    <li>Optionally add the service to the footer "Services" column and to the "All services" list in <code>service-details.html</code>.</li>
+                </ol>
+                <h3>Creating a page for each service</h3>
+                <p>Duplicate <code>service-details.html</code> (for example <code>commercial-construction.html</code>). Update its title, meta tags, breadcrumb, content and images, and mark the matching link in the "All services" sidebar with <code>aria-current="page"</code>. Then point the service card links to the new file and add the page to <code>sitemap.xml</code>.</p>
+            </section>
+
+            <!-- 12 =========================================================== -->
+            <section class="doc-section" id="projects" aria-labelledby="projects-title">
+                <h2 id="projects-title"><span class="doc-section__number">12</span> Adding Projects</h2>
+                <ol>
+                    <li>In <code>projects.html</code>, copy one <code>&lt;li data-category="…"&gt;</code> block inside the list marked <code>data-filter-list</code>.</li>
+                    <li>Set <code>data-category</code> to <code>residential</code>, <code>commercial</code>, <code>renovation</code> or <code>industrial</code>.</li>
+                    <li>Update the image, category label, title, link and location.</li>
+                </ol>
+                <h3>Adding a new filter category</h3>
+                <p>Add a button to the filter and use the same value in <code>data-category</code> on the matching projects. The filter script needs no changes.</p>
+<pre tabindex="0"><code>&lt;button class="filter__button" type="button" aria-pressed="false" data-filter-value="healthcare"&gt;Healthcare&lt;/button&gt;</code></pre>
+                <h3>Case-study pages</h3>
+                <p>Duplicate <code>project-details.html</code> for each project, update its content, and link to it from the project card and the homepage. The facts list, results and gallery are plain HTML blocks you can copy or remove. Update the "Next project" link at the bottom and add the page to <code>sitemap.xml</code>.</p>
+                <p>The homepage shows three featured projects. The first one is displayed large on desktop.</p>
+            </section>
+
+            <!-- 13 =========================================================== -->
+            <section class="doc-section" id="team" aria-labelledby="team-title">
+                <h2 id="team-title"><span class="doc-section__number">13</span> Editing Team</h2>
+                <p>Team members are <code>&lt;article class="team-card"&gt;</code> blocks in <code>team.html</code>. Previews appear in <code>index.html</code> and <code>about.html</code>, and an author box appears in <code>blog-details.html</code>.</p>
+<pre tabindex="0"><code>&lt;article class="team-card"&gt;
+    &lt;div class="team-card__media"&gt;
+        &lt;img class="team-card__photo" src="assets/images/team/jane-doe.webp" alt="" width="800" height="1000" loading="lazy" decoding="async"&gt;
+    &lt;/div&gt;
+    &lt;div class="team-card__body"&gt;
+        &lt;h3 class="team-card__name"&gt;Jane Doe&lt;/h3&gt;
+        &lt;p class="team-card__role"&gt;Project Manager&lt;/p&gt;
+        &lt;p class="team-card__bio"&gt;Short description (optional).&lt;/p&gt;
+        &lt;p class="team-card__meta"&gt;&lt;span&gt;12 years experience&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/article&gt;</code></pre>
+                <p>Use portrait photos with a 4:5 ratio (800 × 1000 px). Only publish photos and names with the consent of the people shown.</p>
+            </section>
+
+            <!-- 14 =========================================================== -->
+            <section class="doc-section" id="contact-form" aria-labelledby="contact-form-title">
+                <h2 id="contact-form-title"><span class="doc-section__number">14</span> Contact Form Configuration</h2>
+                <p>The forms on <code>index.html</code> and <code>contact.html</code> send messages to <code>php/contact.php</code>, which emails them to you with PHP's built-in <code>mail()</code> function. No external libraries or credentials are needed.</p>
+                <h3>Setup (two minutes)</h3>
+                <ol>
+                    <li>In the <code>php</code> folder, make a copy of <code>config.example.php</code> and name it <strong><code>config.php</code></strong>.</li>
+                    <li>Open <code>config.php</code> and replace <code>you@your-domain.example</code> with the address that should receive messages:
+<pre tabindex="0"><code>'recipient_email' =&gt; 'office@yourcompany.com',</code></pre>
+                    </li>
+                    <li>Upload the site and send a test message. That's it.</li>
+                </ol>
+                <h3>All options</h3>
+                <div class="table-wrap" role="region" aria-labelledby="config-caption" tabindex="0">
+                    <table>
+                        <caption class="visually-hidden" id="config-caption">Contact form options</caption>
+                        <thead>
+                            <tr><th scope="col">Option</th><th scope="col">Default</th><th scope="col">Description</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>recipient_email</code></td><td>(demo)</td><td><strong>Required.</strong> Where messages are delivered.</td></tr>
+                            <tr><td><code>recipient_name</code></td><td>Aldervane Construction</td><td>Name shown next to the recipient address.</td></tr>
+                            <tr><td><code>from_email</code></td><td>empty</td><td>Sender address. Use an address on your own domain (e.g. <code>no-reply@yourdomain.com</code>). If empty, <code>no-reply@</code> + your domain is used. The visitor's address is set as <em>Reply-To</em>, so you can simply press "Reply".</td></tr>
+                            <tr><td><code>from_name</code></td><td>Website contact form</td><td>Sender name.</td></tr>
+                            <tr><td><code>subject_prefix</code></td><td>[Website enquiry]</td><td>Added at the start of every subject.</td></tr>
+                            <tr><td><code>allowed_origins</code></td><td>[]</td><td>Extra domains allowed to send the form (the current domain is always allowed).</td></tr>
+                            <tr><td><code>min_submit_seconds</code></td><td>3</td><td>Anti-spam: minimum time between starting to fill in the form and sending it.</td></tr>
+                            <tr><td><code>rate_limit_seconds</code></td><td>60</td><td>Minimum time between two messages from the same visitor.</td></tr>
+                            <tr><td><code>token_lifetime</code></td><td>7200</td><td>How long a security token is valid (seconds).</td></tr>
+                            <tr><td><code>include_ip_address</code></td><td>false</td><td>Adds the sender's IP address to the email. Mention this in your privacy policy.</td></tr>
+                            <tr><td><code>use_envelope_sender</code></td><td>false</td><td>Passes <code>-f from_email</code> to the mail server. Some hosts require it.</td></tr>
+                            <tr><td><code>timezone</code></td><td>empty</td><td>Time zone for the date in the email, e.g. <code>Europe/London</code>.</td></tr>
+                            <tr><td><code>test_mode</code></td><td>false</td><td>The form works normally but no email is sent. For local testing only.</td></tr>
+                            <tr><td><code>return_url</code></td><td>../contact.html</td><td>Link on the confirmation page shown to visitors without JavaScript.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3>How the form is protected</h3>
+                <ul>
+                    <li><strong>Validation twice:</strong> in the browser (<code>form-validation.js</code>) for quick feedback, and again on the server, where all input is cleaned and limited in length.</li>
+                    <li><strong>CSRF protection:</strong> a random token is stored in a secure session cookie (HttpOnly, SameSite=Strict) and must be sent with the form. The server also checks that the request comes from your own domain.</li>
+                    <li><strong>Spam protection:</strong> a hidden honeypot field, a minimum fill-in time and a per-visitor rate limit.</li>
+                    <li><strong>Header injection protection:</strong> line breaks and control characters are removed, the visitor's email is strictly validated, and only a validated Reply-To address and an encoded name reach the email headers.</li>
+                    <li><strong>No auto-reply:</strong> the form deliberately does not send confirmation emails to the address entered by the visitor, so it cannot be abused to send spam.</li>
+                </ul>
+                <h3>Testing locally</h3>
+                <p>Set <code>'test_mode' =&gt; true</code> in <code>config.php</code> and run <code>php -S localhost:8000</code>. The form shows the success message without sending an email. Set it back to <code>false</code> before publishing.</p>
+                <h3>Changing the form fields</h3>
+                <p>The select options (project type and budget) can be edited in the HTML only. To add a new field:</p>
+                <ol>
+                    <li>Copy a <code>form-field</code> block in the form HTML, with a unique <code>id</code>, a <code>name</code>, an <code>autocomplete</code> value and an error element <code>id="…-error"</code>.</li>
+                    <li>Optionally add a rule in <code>validateField()</code> in <code>form-validation.js</code>.</li>
+                    <li>In <code>contact.php</code>, read the new value in the <code>$fields</code> array, add a maximum length in <code>$maxLengths</code>, and add a row in <code>build_message_body()</code>.</li>
+                </ol>
+                <h3>Deliverability tips</h3>
+                <ul>
+                    <li>Use a <code>from_email</code> on the same domain as the website, and set up SPF and DKIM records for that domain with your host.</li>
+                    <li>If messages land in spam or never arrive, ask your host whether <code>mail()</code> is enabled. Some hosts require SMTP; in that case you can integrate an SMTP library of your choice in <code>contact.php</code> (not included).</li>
+                </ul>
+            </section>
+
+            <!-- 15 =========================================================== -->
+            <section class="doc-section" id="php" aria-labelledby="php-title">
+                <h2 id="php-title"><span class="doc-section__number">15</span> PHP Requirements</h2>
+                <ul class="checklist-doc">
+                    <li>PHP <strong>8.0 or newer</strong> (8.2+ recommended).</li>
+                    <li>A working <code>mail()</code> function (available on most shared hosting).</li>
+                    <li>PHP sessions enabled (standard).</li>
+                    <li>Recommended extension: <code>mbstring</code>. The script falls back gracefully when it is missing.</li>
+                    <li>No Composer, no database, no external libraries.</li>
+                </ul>
+                <h3>Local PHP development server</h3>
+                <ul>
+                    <li><strong>Windows:</strong> install PHP (or XAMPP / Laragon), open a terminal in the template folder and run <code>php -S localhost:8000</code>.</li>
+                    <li><strong>macOS:</strong> install PHP with Homebrew (<code>brew install php</code>), then run <code>php -S localhost:8000</code> in the template folder.</li>
+                    <li><strong>Linux:</strong> install the <code>php-cli</code> package, then run <code>php -S localhost:8000</code>.</li>
+                </ul>
+                <p>The built-in server does not send real emails unless your computer has a configured mail system, so use <code>test_mode</code> locally.</p>
+                <h3>Hosting without PHP</h3>
+                <p>The pages work on any static hosting, but the form needs PHP to send messages. On static hosting you can point the form's <code>action</code> to a form service of your choice (and remove <code>form-validation.js</code> or adapt it), or link visitors to your email address instead.</p>
+            </section>
+
+            <!-- 16 =========================================================== -->
+            <section class="doc-section" id="seo" aria-labelledby="seo-title">
+                <h2 id="seo-title"><span class="doc-section__number">16</span> SEO Configuration</h2>
+                <ol>
+                    <li><strong>Your domain:</strong> replace every <code>https://www.example.com</code> with your address (for example <code>https://www.yourcompany.com</code>) in all HTML pages (<code>canonical</code>, <code>og:url</code>, <code>og:image</code>, <code>twitter:image</code>), <code>sitemap.xml</code>, <code>robots.txt</code> and the structured data in <code>index.html</code>.</li>
+                    <li><strong>Titles and descriptions:</strong> give every page a unique <code>&lt;title&gt;</code> (up to about 60 characters) and <code>meta description</code> (about 120–160 characters) that describe your real services and location.</li>
+                    <li><strong>Structured data:</strong> update the JSON-LD block in the head of <code>index.html</code> (name, address, phone, email, opening hours). This is data, not JavaScript. Remove the block if you prefer.</li>
+                    <li><strong>Sitemap:</strong> add new pages to <code>sitemap.xml</code>, update the <code>&lt;lastmod&gt;</code> dates and submit the sitemap in Google Search Console and Bing Webmaster Tools.</li>
+                    <li><strong>Social sharing image:</strong> replace <code>assets/images/social/og-image.jpg</code> (1200 × 630 px) with an image that represents your brand.</li>
+                    <li><strong>Error page:</strong> <code>404.html</code> uses <code>noindex</code> and is excluded from the sitemap. The <code>.htaccess</code> file tells Apache to use it.</li>
+                </ol>
+                <p>Write for people first: describe your services, locations and projects naturally, and avoid repeating keywords.</p>
+            </section>
+
+            <!-- 17 =========================================================== -->
+            <section class="doc-section" id="favicon" aria-labelledby="favicon-title">
+                <h2 id="favicon-title"><span class="doc-section__number">17</span> Favicon</h2>
+                <div class="table-wrap" role="region" aria-labelledby="favicon-caption" tabindex="0">
+                    <table>
+                        <caption class="visually-hidden" id="favicon-caption">Favicon files</caption>
+                        <thead>
+                            <tr><th scope="col">File (in <code>assets/images/favicon/</code>)</th><th scope="col">Size</th><th scope="col">Purpose</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>favicon.svg</code></td><td>Vector</td><td>Modern browsers</td></tr>
+                            <tr><td><code>favicon.ico</code></td><td>16, 32, 48 px</td><td>Older browsers, bookmarks</td></tr>
+                            <tr><td><code>apple-touch-icon.png</code></td><td>180 × 180 px</td><td>iPhone and iPad home screen (no transparency)</td></tr>
+                            <tr><td><code>icon-192.png</code>, <code>icon-512.png</code></td><td>192 / 512 px</td><td>Android, referenced in <code>site.webmanifest</code></td></tr>
+                            <tr><td><code>icon-maskable-512.png</code></td><td>512 × 512 px</td><td>Android adaptive icon; keep the symbol inside the central 80% safe zone</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>Replace the files with the same names, or update the <code>&lt;link rel="icon"&gt;</code> tags in each page head and the icon list in <code>site.webmanifest</code>. Also set <code>theme-color</code> to your brand colour.</p>
+            </section>
+
+            <!-- 18 =========================================================== -->
+            <section class="doc-section" id="google-fonts" aria-labelledby="google-fonts-title">
+                <h2 id="google-fonts-title"><span class="doc-section__number">18</span> Google Fonts</h2>
+                <div class="table-wrap" role="region" aria-labelledby="fonts-caption" tabindex="0">
+                    <table>
+                        <caption class="visually-hidden" id="fonts-caption">Fonts used</caption>
+                        <thead>
+                            <tr><th scope="col">Font</th><th scope="col">Author</th><th scope="col">License</th><th scope="col">Source</th><th scope="col">Used for</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Archivo (variable, 600–800)</td><td>Omnibus-Type (The Archivo Project Authors)</td><td>SIL Open Font License 1.1</td><td>Google Fonts</td><td>Headings, logo text, numbers</td></tr>
+                            <tr><td>Inter (variable, 400–700)</td><td>Rasmus Andersson (The Inter Project Authors)</td><td>SIL Open Font License 1.1</td><td>Google Fonts</td><td>Body text, navigation, buttons, forms</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ul>
+                    <li>License text: <a href="https://openfontlicense.org/open-font-license-official-text/">SIL Open Font License 1.1 (official text)</a>. The license allows commercial use and redistribution; the fonts may not be sold on their own.</li>
+                    <li>Font pages: <a href="https://fonts.google.com/specimen/Archivo">Archivo on Google Fonts</a> and <a href="https://fonts.google.com/specimen/Inter">Inter on Google Fonts</a>.</li>
+                    <li>The fonts are loaded with <code>display=swap</code> and two <code>preconnect</code> hints, so text is shown immediately with a fallback font.</li>
+                    <li>Privacy: loading fonts from Google transfers visitors' IP addresses to Google. Depending on your jurisdiction you may prefer to <a href="#changing-fonts">self-host the fonts</a>.</li>
+                </ul>
+            </section>
+
+            <!-- 19 =========================================================== -->
+            <section class="doc-section" id="accessibility" aria-labelledby="accessibility-title">
+                <h2 id="accessibility-title"><span class="doc-section__number">19</span> Accessibility</h2>
+                <p>The template follows WCAG 2.2 level AA practices. Features include:</p>
+                <ul>
+                    <li>A "Skip to main content" link, semantic landmarks (header, nav, main, footer) and one <code>&lt;h1&gt;</code> per page with a logical heading order.</li>
+                    <li>Full keyboard support:
+                        <ul>
+                            <li>visible focus outlines on every control;</li>
+                            <li>a mobile menu with a focus trap, Escape to close and focus returned to the button;</li>
+                            <li>an accordion with arrow-key navigation;</li>
+                            <li>a portfolio filter built with real buttons and <code>aria-pressed</code>.</li>
+                        </ul>
+                    </li>
+                    <li>Colour contrast checked for all text (4.5:1, or 3:1 for large text) and form borders (3:1).</li>
+                    <li>Forms: labels, <code>autocomplete</code>, error messages linked with <code>aria-describedby</code>, <code>aria-invalid</code>, and a live region for status messages.</li>
+                    <li>Motion: the <code>prefers-reduced-motion</code> setting disables reveal effects, counters, transitions and smooth scrolling.</li>
+                    <li>Interactive elements are at least 24 × 24 px (WCAG 2.2 target size), and most are 44 px or more.</li>
+                    <li>Works without JavaScript: the navigation is shown as a list, FAQ answers are expanded and all content stays available.</li>
+                </ul>
+                <h3>Keep it accessible when editing</h3>
+                <ul>
+                    <li>Write meaningful alt text for informative images. Use <code>alt=""</code> for decorative ones.</li>
+                    <li>Keep the heading order and the one-<code>h1</code>-per-page rule.</li>
+                    <li>Use descriptive link text. The hidden text in "Learn more" links tells screen-reader users where the link goes, so update it when you change the link.</li>
+                    <li>Check contrast when you change colours (see <a href="#colors">Changing Colors</a>).</li>
+                    <li>When you add accordion items, give each button and panel new, unique ids.</li>
+                </ul>
+                <p>Automated tests cannot catch everything. Test your final site with a keyboard and a screen reader.</p>
+            </section>
+
+            <!-- 20 =========================================================== -->
+            <section class="doc-section" id="credits" aria-labelledby="credits-title">
+                <h2 id="credits-title"><span class="doc-section__number">20</span> Credits</h2>
+                <ul>
+                    <li><strong>Fonts:</strong> Archivo by Omnibus-Type and Inter by Rasmus Andersson, served by Google Fonts under the SIL Open Font License 1.1.</li>
+                    <li><strong>Icons:</strong> 27 original SVG icons drawn for this template.</li>
+                    <li><strong>Illustrations, logo, favicons and social image:</strong> original artwork created for this template.</li>
+                    <li><strong>Code:</strong> HTML, CSS, JavaScript and PHP written from scratch, with no third-party libraries or frameworks.</li>
+                </ul>
+            </section>
+
+            <!-- 21 =========================================================== -->
+            <section class="doc-section" id="licenses" aria-labelledby="licenses-title">
+                <h2 id="licenses-title"><span class="doc-section__number">21</span> Licenses</h2>
+                <ul>
+                    <li>The license for the template itself is defined by the marketplace or agreement under which you obtained it.</li>
+                    <li>Third-party resources are listed in <code>licenses/THIRD_PARTY_NOTICES.md</code>. The only external resource is Google Fonts (Archivo and Inter, SIL Open Font License 1.1).</li>
+                    <li>The icons and illustrations are original works included with the template.</li>
+                    <li>Social network names in the footer are plain-text links. No third-party logos are included.</li>
+                    <li>All company names, persons, testimonials, statistics and project descriptions are fictional demo content and should be replaced by the end user.</li>
+                    <li>Any photos, fonts or scripts you add later are your responsibility. Make sure their licenses allow your use.</li>
+                </ul>
+                <div class="callout">
+                    <p><strong>Privacy policy:</strong> <code>privacy-policy.html</code> is a template. It is not legal advice and does not, on its own, ensure compliance with the GDPR, the CCPA or any other law. Adapt it to your country, your company, how you process data, any analytics or marketing services, your hosting and your forms, and have it reviewed by a qualified professional. The template sets no tracking cookies. The contact form uses one strictly necessary session cookie for security, which is why no cookie banner is included.</p>
+                </div>
+            </section>
+
+            <!-- 22 =========================================================== -->
+            <section class="doc-section" id="troubleshooting" aria-labelledby="troubleshooting-title">
+                <h2 id="troubleshooting-title"><span class="doc-section__number">22</span> Troubleshooting</h2>
+                <h3>The form says "not configured" or cannot send messages</h3>
+                <ul>
+                    <li>Make sure <code>php/config.php</code> exists (a copy of <code>config.example.php</code>) and contains your real address in <code>recipient_email</code>.</li>
+                    <li>If <code>mail()</code> fails, the error is written to your server's PHP error log. Ask your host whether <code>mail()</code> is enabled, or try <code>'use_envelope_sender' =&gt; true</code>.</li>
+                    <li>Opening the pages directly from your disk (<code>file://</code>) cannot run PHP. Use <code>php -S localhost:8000</code> or real hosting.</li>
+                </ul>
+                <h3>"Your session has expired" or "blocked for security reasons"</h3>
+                <ul>
+                    <li>Reload the page and send the form again. Tokens are valid for two hours.</li>
+                    <li>If your site is reachable on several domains (for example with and without <code>www</code>), add them to <code>allowed_origins</code>, or redirect all visitors to one domain.</li>
+                    <li>Do not set <code>Referrer-Policy: no-referrer</code> on your server. The form's origin check needs the browser's standard <code>Origin</code> or <code>Referer</code> header.</li>
+                </ul>
+                <h3>Messages arrive in the spam folder</h3>
+                <p>Set <code>from_email</code> to an address on your own domain and configure SPF and DKIM with your host.</p>
+                <h3>The 404 page looks unstyled</h3>
+                <p>The 404 page uses relative paths. If your server shows it for addresses inside sub-folders (for example <code>/folder/missing-page</code>), change the asset paths in <code>404.html</code> to root-relative paths (<code>/assets/…</code>). If the site is installed in a sub-folder, also update <code>ErrorDocument</code> in <code>.htaccess</code>.</p>
+                <h3>My server uses Nginx instead of Apache</h3>
+                <p><code>.htaccess</code> files are ignored by Nginx. Add equivalent rules to your server block, for example <code>error_page 404 /404.html;</code> and a rule that denies access to <code>/php/config.php</code>. Make sure PHP-FPM handles <code>.php</code> files.</p>
+                <h3>My CSS or JavaScript changes don't show up</h3>
+                <p>Your browser or server may cache the old files. Refresh with <code>Ctrl/Cmd + Shift + R</code>, or add a version to the file link, for example <code>assets/css/components.css?v=2</code>.</p>
+                <h3>Fonts look different</h3>
+                <p>Check the Google Fonts link in the page head and your internet connection. If fonts are blocked (for example by a privacy extension or a Content Security Policy), the fallback system fonts are used. The layout is designed to stay intact in that case.</p>
+                <h3>I enabled the Content Security Policy and something broke</h3>
+                <p>The optional policy in <code>.htaccess</code> allows only your own files and Google Fonts. If you add analytics, maps, videos or other services, add their domains to the policy first.</p>
+                <h3>An icon is black on a dark background</h3>
+                <p>Icons turn white automatically inside elements with the <code>theme-dark</code> class. Elsewhere, add the <code>icon--light</code> class to the <code>&lt;img&gt;</code>.</p>
+            </section>
+
+            <!-- 23 =========================================================== -->
+            <section class="doc-section" id="support" aria-labelledby="support-title">
+                <h2 id="support-title"><span class="doc-section__number">23</span> Support</h2>
+                <div class="callout callout--info">
+                    <p><strong>Support contact:</strong> [Add your support email or marketplace profile link here]</p>
+                    <p><strong>Response time:</strong> [e.g. within 2 business days]</p>
+                    <p><strong>Support covers:</strong> [e.g. questions about template features and bug fixes. Custom development and third-party integrations are not included.]</p>
+                </div>
+                <p>When you ask for help, please include:</p>
+                <ul>
+                    <li>the template version (see <code>CHANGELOG.md</code>);</li>
+                    <li>a link to the page where the issue happens, or a screenshot;</li>
+                    <li>your browser and device;</li>
+                    <li>for contact form issues: your PHP version and any messages from your server's error log.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer class="doc-footer">
+        <p>Aldervane Construction HTML Template, version 1.0.0. Demo content is fictional.</p>
+    </footer>
+</body>
+</html>

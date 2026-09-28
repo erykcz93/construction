@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (blog image, 1200 x 750 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#b06a4f"/><path d="M0 0.5H24M0 6.5H24M6 0.5V6.5M18 6.5V12.5" stroke="#e7d6c8" stroke-opacity="0.7"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" fill="url(#brick)"/>
+  <path d="M110 440V170a70 70 0 0 1 140 0V440z" fill="url(#glassL)" stroke="#efe6da" stroke-width="12"/>
+  <path d="M180 100V440M110 280h140M110 360h140" stroke="#efe6da" stroke-width="4"/>
+  <rect x="96" y="440" width="168" height="16" fill="#d8cdbd"/>
+  <path d="M330 440V170a70 70 0 0 1 140 0V440z" fill="url(#glassL)" stroke="#efe6da" stroke-width="12"/>
+  <path d="M400 100V440M330 280h140M330 360h140" stroke="#efe6da" stroke-width="4"/>
+  <rect x="316" y="440" width="168" height="16" fill="#d8cdbd"/>
+  <path d="M550 440V170a70 70 0 0 1 140 0V440z" fill="url(#glassL)" stroke="#efe6da" stroke-width="12"/>
+  <path d="M620 100V440M550 280h140M550 360h140" stroke="#efe6da" stroke-width="4"/>
+  <rect x="536" y="440" width="168" height="16" fill="#d8cdbd"/>
+  <rect x="0" y="30" width="800" height="18" fill="#d8cdbd"/>
+  <rect x="330" y="90" width="140" height="350" fill="none" stroke="#e8862e" stroke-width="3" stroke-dasharray="10 8"/>
+</svg>

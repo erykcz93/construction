@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360">
+  <!-- Decorative line drawing used behind inner-page headings -->
+  <path d="M20 340H540" fill="none" stroke="#8fa3b5" stroke-width="1.5"/>
+  <path d="M60 340V150h110v190M170 340V210h70v130" fill="none" stroke="#8fa3b5" stroke-width="1.5"/>
+  <path d="M280 340V90h120v250" fill="none" stroke="#8fa3b5" stroke-width="1.5"/>
+  <path d="M420 340V200l60-40 60 40v140" fill="none" stroke="#8fa3b5" stroke-width="1.5"/>
+  <path d="M296 110h88M296 136h88M296 162h88M296 188h88M296 214h88M296 240h88M296 266h88M296 292h88M296 318h88M76 170h78M76 200h78M76 230h78M76 260h78M76 290h78M76 320h78M190 230h30M190 260h30M190 290h30M440 230h80M440 262h80M440 294h80" fill="none" stroke="#8fa3b5" stroke-width="1" stroke-opacity="0.6"/>
+  <path d="M340 90V40M300 40h150M340 40l-12 50M340 40l12 50" fill="none" stroke="#e8862e" stroke-width="1.5"/>
+  <path d="M430 40v34" fill="none" stroke="#e8862e" stroke-width="1.25"/>
+  <path d="M60 356H240M60 351v10M56 360l8 -8M240 351v10M236 360l8 -8" fill="none" stroke="#8fa3b5" stroke-opacity="0.8" stroke-width="1.25"/>
+</svg>

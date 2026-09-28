@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <!-- Decorative steel frame used in call-to-action panels -->
+  <path d="M60 30V380M190 30V380M320 30V380M450 30V380M580 30V380M40 60H600M40 150H600M40 240H600M40 330H600M60 60L190 150M190 150L60 240M60 240L190 330M320 60L190 150M190 150L320 240M320 240L190 330M320 60L450 150M450 150L320 240M320 240L450 330M580 60L450 150M450 150L580 240M580 240L450 330" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+  <path d="M190 150h130v90H190z" fill="#e8862e" fill-opacity="0.18" stroke="#e8862e" stroke-opacity="0.6" stroke-width="1.5"/>
+</svg>

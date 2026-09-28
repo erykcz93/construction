@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Reset — a small, modern baseline for consistent rendering
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Lists that have a class are styled components, not running text */
+ul[class],
+ol[class] {
+    padding: 0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* The hidden attribute must always win over component display values */
+[hidden] {
+    display: none !important;
+}

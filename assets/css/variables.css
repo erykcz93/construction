@@ -1,0 +1,138 @@
+/* ==========================================================================
+   Aldervane — Design tokens
+   --------------------------------------------------------------------------
+   This is the ONE place to customise the look of the template.
+   Change a value here and it updates everywhere it is used.
+   All colour pairs below were checked against WCAG 2.2 AA contrast.
+   ========================================================================== */
+
+:root {
+    /* ----------------------------------------------------------------------
+       Brand colours
+       ---------------------------------------------------------------------- */
+    --color-primary: #14202b;          /* Ink: dark sections, headings, footer */
+    --color-primary-light: #1e2e3d;    /* Lighter ink: cards on dark sections */
+    --color-secondary: #3e566b;        /* Steel blue: secondary accents */
+    --color-accent: #e8862e;           /* Amber: buttons, highlights (use dark text on it) */
+    --color-accent-hover: #f29a45;     /* Amber hover state */
+    --color-accent-strong: #9e4f0e;    /* Amber dark enough for text on light backgrounds */
+    --color-accent-soft: #fbebdc;      /* Tinted amber background */
+
+    /* ----------------------------------------------------------------------
+       Neutrals
+       ---------------------------------------------------------------------- */
+    --color-background: #f4f2ee;       /* Page background ("concrete paper") */
+    --color-surface: #ffffff;          /* Cards, forms, panels */
+    --color-surface-alt: #eae6de;      /* Alternate section background ("sand") */
+    --color-text: #1a2530;             /* Body text */
+    --color-heading: var(--color-primary);
+    --color-muted: #56616c;            /* Secondary text */
+    --color-border: #d8d2c6;           /* Decorative borders and dividers */
+    --color-border-strong: #78818b;    /* Form field borders (3:1 minimum) */
+
+    /* ----------------------------------------------------------------------
+       Colours used on dark backgrounds (.theme-dark)
+       ---------------------------------------------------------------------- */
+    --color-on-dark: #f2f0eb;
+    --color-on-dark-muted: #a9b3bd;
+    --color-border-dark: rgb(255 255 255 / 0.14);
+
+    /* ----------------------------------------------------------------------
+       Semantic colours
+       ---------------------------------------------------------------------- */
+    --color-link: var(--color-accent-strong);
+    --color-accent-text: var(--color-accent-strong); /* Eyebrows, small accents */
+    --color-focus: var(--color-accent-strong);       /* Keyboard focus ring */
+    --color-success: #1d7a45;
+    --color-success-bg: #e6f2eb;
+    --color-error: #b3261e;
+    --color-error-bg: #fbeae8;
+
+    /* ----------------------------------------------------------------------
+       Typography
+       Fonts are loaded from Google Fonts in the <head> of every page.
+       If you change the families here, update that <link> too.
+       ---------------------------------------------------------------------- */
+    --font-heading: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+    --text-xs: 0.8125rem;                                   /* 13px */
+    --text-sm: 0.875rem;                                    /* 14px */
+    --text-base: 1rem;                                      /* 16px */
+    --text-md: 1.0625rem;                                   /* 17px: body copy */
+    --text-lg: clamp(1.125rem, 1.08rem + 0.2vw, 1.25rem);   /* lead paragraphs */
+    --text-xl: clamp(1.25rem, 1.16rem + 0.4vw, 1.5rem);     /* h3, card titles */
+    --text-2xl: clamp(1.5rem, 1.32rem + 0.8vw, 2rem);       /* h3 large */
+    --text-3xl: clamp(1.875rem, 1.5rem + 1.7vw, 2.875rem);  /* h2 */
+    --text-4xl: clamp(2.25rem, 1.62rem + 2.9vw, 4.25rem);   /* h1 */
+
+    --leading-tight: 1.1;
+    --leading-snug: 1.3;
+    --leading-normal: 1.65;
+    --tracking-tight: -0.02em;
+    --tracking-wide: 0.14em;
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+    --weight-heavy: 800;
+
+    /* ----------------------------------------------------------------------
+       Spacing (4px base)
+       ---------------------------------------------------------------------- */
+    --space-2xs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+    --space-4xl: 6rem;
+    --section-space: clamp(4rem, 2.8rem + 5vw, 7.5rem);
+
+    /* ----------------------------------------------------------------------
+       Layout
+       ---------------------------------------------------------------------- */
+    --container-width: 1240px;
+    --container-narrow: 820px;
+    --gutter: clamp(1rem, 4vw, 2rem);
+    --header-height: 4.5rem;
+
+    /* ----------------------------------------------------------------------
+       Shape
+       ---------------------------------------------------------------------- */
+    --border-radius: 6px;
+    --radius-sm: 4px;
+    --radius-lg: 12px;
+    --radius-pill: 999px;
+
+    /* ----------------------------------------------------------------------
+       Shadows
+       ---------------------------------------------------------------------- */
+    --shadow-sm: 0 1px 2px rgb(20 32 43 / 0.06), 0 1px 3px rgb(20 32 43 / 0.08);
+    --shadow-md: 0 2px 4px rgb(20 32 43 / 0.04), 0 12px 28px -10px rgb(20 32 43 / 0.18);
+    --shadow-lg: 0 4px 8px rgb(20 32 43 / 0.05), 0 32px 56px -20px rgb(20 32 43 / 0.32);
+
+    /* ----------------------------------------------------------------------
+       Motion
+       ---------------------------------------------------------------------- */
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+    --duration-fast: 150ms;
+    --duration-base: 250ms;
+    --duration-slow: 700ms;
+
+    /* ----------------------------------------------------------------------
+       Layers
+       ---------------------------------------------------------------------- */
+    --z-header: 100;
+    --z-skip-link: 200;
+}
+
+/* Taller header from tablet width up */
+@media (min-width: 48em) {
+    :root {
+        --header-height: 5rem;
+    }
+}

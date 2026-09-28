@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (project image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+    <pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#b06a4f"/><path d="M0 0.5H24M0 6.5H24M6 0.5V6.5M18 6.5V12.5" stroke="#e7d6c8" stroke-opacity="0.7"/></pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#efeae3"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="500" width="800" height="100" fill="#d9d2c5"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="160" y="196" width="480" height="304" fill="url(#brick)"/>
+  <rect x="152" y="186" width="496" height="12" fill="#d8cdbd"/>
+  <path d="M190 282V242a20 20 0 0 1 40 0V282zM280 282V242a20 20 0 0 1 40 0V282zM370 282V242a20 20 0 0 1 40 0V282zM460 282V242a20 20 0 0 1 40 0V282zM550 282V242a20 20 0 0 1 40 0V282zM190 374V334a20 20 0 0 1 40 0V374zM280 374V334a20 20 0 0 1 40 0V374zM370 374V334a20 20 0 0 1 40 0V374zM460 374V334a20 20 0 0 1 40 0V374zM550 374V334a20 20 0 0 1 40 0V374zM190 466V426a20 20 0 0 1 40 0V466zM280 466V426a20 20 0 0 1 40 0V466zM370 466V426a20 20 0 0 1 40 0V466zM460 466V426a20 20 0 0 1 40 0V466zM550 466V426a20 20 0 0 1 40 0V466z" fill="#2b3a47" stroke="#efe6da" stroke-width="4"/>
+  <path d="M210 226V282M190 256h40M300 226V282M280 256h40M390 226V282M370 256h40M480 226V282M460 256h40M570 226V282M550 256h40M210 318V374M190 348h40M300 318V374M280 348h40M390 318V374M370 348h40M480 318V374M460 348h40M570 318V374M550 348h40M210 410V466M190 440h40M300 410V466M280 440h40M390 410V466M370 440h40M480 410V466M460 440h40M570 410V466M550 440h40" stroke="#efe6da" stroke-width="1.5" stroke-opacity="0.8"/>
+  <path d="M372 500V446a28 28 0 0 1 56 0V500z" fill="#e8862e"/>
+  <rect x="236" y="116" width="328" height="70" fill="url(#glassL)"/>
+  <path d="M277 116V186M318 116V186M359 116V186M400 116V186M441 116V186M482 116V186M523 116V186" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="226" y="106" width="348" height="10" fill="#14202b"/>
+  <line x1="236" y1="186" x2="564" y2="186" stroke="#e8862e" stroke-width="3"/>
+  <path d="M612 106V186M605 106h14M608 110l8 -8M605 186h14M608 190l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+  <line x1="95" y1="500" x2="95" y2="460" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="95" cy="435.52" r="34" fill="#8fa597"/>
+  <circle cx="104.52" cy="442.32" r="21.08" fill="#6f8878" fill-opacity="0.35"/>
+</svg>

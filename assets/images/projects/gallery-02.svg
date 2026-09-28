@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (gallery image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <linearGradient id="gl2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b6c7d4"/><stop offset="1" stop-color="#6c879d"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#ece8e1"/>
+  <polygon points="0,600 800,600 560,380 240,380" fill="#d9d2c5"/>
+  <polygon points="0,0 800,0 560,160 240,160" fill="#f7f5f1"/>
+  <polygon points="0,0 240,160 240,380 0,600" fill="#e3ddd2"/>
+  <polygon points="800,0 560,160 560,380 800,600" fill="#e3ddd2"/>
+  <rect x="240" y="160" width="320" height="220" fill="url(#gl2)"/>
+  <path d="M280 160V380M320 160V380M360 160V380M400 160V380M440 160V380M480 160V380M520 160V380" stroke="#ffffff" stroke-opacity="0.7" stroke-width="2"/>
+  <path d="M30.0 572.5H770.0M60.0 545.0H740.0M90.0 517.5H710.0M120.0 490.0H680.0M150.0 462.5H650.0M180.0 435.0H620.0M210.0 407.5H590.0M-400 600L80.0 380M-300 600L120.0 380M-200 600L160.0 380M-100 600L200.0 380M0 600L240.0 380M100 600L280.0 380M200 600L320.0 380M300 600L360.0 380M400 600L400.0 380M500 600L440.0 380M600 600L480.0 380M700 600L520.0 380M800 600L560.0 380M900 600L600.0 380M1000 600L640.0 380M1100 600L680.0 380M1200 600L720.0 380" fill="none" stroke="#14202b" stroke-opacity="0.12" stroke-width="1.5"/>
+  <path d="M-400 0L80.0 160M-300 0L120.0 160M-200 0L160.0 160M-100 0L200.0 160M0 0L240.0 160M100 0L280.0 160M200 0L320.0 160M300 0L360.0 160M400 0L400.0 160M500 0L440.0 160M600 0L480.0 160M700 0L520.0 160M800 0L560.0 160M900 0L600.0 160M1000 0L640.0 160M1100 0L680.0 160M1200 0L720.0 160" fill="none" stroke="#14202b" stroke-opacity="0.08" stroke-width="1.5"/>
+  <polygon points="300,440 500,440 520,520 280,520" fill="#e8862e"/>
+  <polygon points="290,428 510,428 500,440 300,440" fill="#2b3a47"/>
+  <rect x="120" y="90" width="34" height="450" fill="#f7f5f1" stroke="#14202b" stroke-opacity="0.15"/>
+  <rect x="646" y="90" width="34" height="450" fill="#f7f5f1" stroke="#14202b" stroke-opacity="0.15"/>
+</svg>

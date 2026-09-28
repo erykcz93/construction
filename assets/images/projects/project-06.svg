@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (project image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#ece7df"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="500" width="800" height="100" fill="#d9d2c5"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="120" y="334" width="560" height="166" fill="#f8f7f4"/>
+  <path d="M132 356h58v144h-58zM200 356h58v144h-58zM268 356h58v144h-58zM336 356h58v144h-58zM404 356h58v144h-58zM472 356h58v144h-58zM540 356h58v144h-58zM608 356h58v144h-58z" fill="url(#glassL)"/>
+  <path d="M161 356v144M229 356v144M297 356v144M365 356v144M433 356v144M501 356v144M569 356v144M637 356v144" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="120" y="334" width="560" height="166" fill="none" stroke="#14202b" stroke-opacity="0.25" stroke-width="1.5"/>
+  <rect x="84" y="300" width="632" height="30" fill="#14202b"/>
+  <rect x="84" y="326" width="632" height="5" fill="#e8862e"/>
+  <rect x="96" y="331" width="8" height="169" fill="#2b3a47"/>
+  <rect x="696" y="331" width="8" height="169" fill="#2b3a47"/>
+  <rect x="330" y="440" width="140" height="60" fill="#2b3a47"/>
+  <rect x="0" y="500" width="800" height="40" fill="#cfc8bb"/>
+  <path d="M0 500v40M40 500v40M80 500v40M120 500v40M160 500v40M200 500v40M240 500v40M280 500v40M320 500v40M360 500v40M400 500v40M440 500v40M480 500v40M520 500v40M560 500v40M600 500v40M640 500v40M680 500v40M720 500v40M760 500v40" stroke="#14202b" stroke-opacity="0.08"/>
+  <line x1="190" y1="540" x2="190" y2="510" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="190" cy="494.16" r="22" fill="#8fa597"/>
+  <circle cx="196.16" cy="498.56" r="13.64" fill="#6f8878" fill-opacity="0.35"/>
+  <line x1="400" y1="540" x2="400" y2="510" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="400" cy="494.16" r="22" fill="#8fa597"/>
+  <circle cx="406.16" cy="498.56" r="13.64" fill="#6f8878" fill-opacity="0.35"/>
+  <line x1="610" y1="540" x2="610" y2="510" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="610" cy="494.16" r="22" fill="#8fa597"/>
+  <circle cx="616.16" cy="498.56" r="13.64" fill="#6f8878" fill-opacity="0.35"/>
+  <path d="M84 256H716M84 249v14M80 260l8 -8M400 249v14M396 260l8 -8M716 249v14M712 260l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+</svg>

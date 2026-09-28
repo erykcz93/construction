@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (about image, 1200 x 1500 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="800" fill="#e9e4da"/>
+  <rect x="0" y="0" width="640" height="800" fill="url(#grid)"/>
+  <rect x="0" y="700" width="640" height="100" fill="#d9d2c5"/>
+  <line x1="0" y1="700" x2="640" y2="700" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="120" y="620" width="400" height="80" fill="#f7f5f1"/>
+  <path d="M134 636h72v50h-72zM234 636h72v50h-72zM334 636h72v50h-72zM434 636h72v50h-72z" fill="url(#glassL)"/>
+  <rect x="120" y="540" width="400" height="80" fill="#f7f5f1"/>
+  <path d="M134 556h72v50h-72zM234 556h72v50h-72zM334 556h72v50h-72zM434 556h72v50h-72z" fill="url(#glassL)"/>
+  <rect x="115" y="300" width="10" height="400" fill="#b9b1a3" stroke="#14202b" stroke-opacity="0.3"/>
+  <rect x="215" y="300" width="10" height="400" fill="#b9b1a3" stroke="#14202b" stroke-opacity="0.3"/>
+  <rect x="315" y="300" width="10" height="400" fill="#b9b1a3" stroke="#14202b" stroke-opacity="0.3"/>
+  <rect x="415" y="300" width="10" height="400" fill="#b9b1a3" stroke="#14202b" stroke-opacity="0.3"/>
+  <rect x="515" y="300" width="10" height="400" fill="#b9b1a3" stroke="#14202b" stroke-opacity="0.3"/>
+  <rect x="112" y="610" width="416" height="12" fill="#cfc8bb" stroke="#14202b" stroke-opacity="0.35"/>
+  <rect x="112" y="530" width="416" height="12" fill="#cfc8bb" stroke="#14202b" stroke-opacity="0.35"/>
+  <rect x="112" y="450" width="416" height="12" fill="#cfc8bb" stroke="#14202b" stroke-opacity="0.35"/>
+  <rect x="112" y="370" width="416" height="12" fill="#cfc8bb" stroke="#14202b" stroke-opacity="0.35"/>
+  <rect x="112" y="290" width="416" height="12" fill="#cfc8bb" stroke="#14202b" stroke-opacity="0.35"/>
+  <rect x="112" y="250" width="416" height="40" fill="#e8862e" fill-opacity="0.28"/>
+  <path d="M120 250v40M140 250v40M160 250v40M180 250v40M200 250v40M220 250v40M240 250v40M260 250v40M280 250v40M300 250v40M320 250v40M340 250v40M360 250v40M380 250v40M400 250v40M420 250v40M440 250v40M460 250v40M480 250v40M500 250v40M520 250v40" stroke="#e8862e" stroke-opacity="0.6" stroke-width="1.5"/>
+  <path d="M64 250V700M92 250V700M58 290h40M58 370h40M64 370L92 290M58 450h40M64 450L92 370M58 530h40M64 530L92 450M58 610h40M64 610L92 530M58 690h40M64 690L92 610" stroke="#14202b" stroke-opacity="0.55" stroke-width="2" fill="none"/>
+  <path d="M560 700V150M574 700V150M560 700L574 686M574 686L560 672M560 672L574 658M574 658L560 644M560 644L574 630M574 630L560 616M560 616L574 602M574 602L560 588M560 588L574 574M574 574L560 560M560 560L574 546M574 546L560 532M560 532L574 518M574 518L560 504M560 504L574 490M574 490L560 476M560 476L574 462M574 462L560 448M560 448L574 434M574 434L560 420M560 420L574 406M574 406L560 392M560 392L574 378M574 378L560 364M560 364L574 350M574 350L560 336M560 336L574 322M574 322L560 308M560 308L574 294M574 294L560 280M560 280L574 266M574 266L560 252M560 252L574 238M574 238L560 224M560 224L574 210M574 210L560 196M560 196L574 182M574 182L560 168M560 168L574 154" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <path d="M150 138H628M150 148H574M150 138v10M150 138L170 148M170 148L190 138M190 138L210 148M210 148L230 138M230 138L250 148M250 148L270 138M270 138L290 148M290 148L310 138M310 138L330 148M330 148L350 138M350 138L370 148M370 148L390 138M390 138L410 148M410 148L430 138M430 138L450 148M450 148L470 138M470 138L490 148M490 148L510 138M510 138L530 148M530 148L550 138M550 138L560 148" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <path d="M560 138L567 102L574 138M567 102L293.5 138M567 102L628 140" fill="none" stroke="#e8862e" stroke-width="1.5"/>
+  <rect x="602" y="139" width="22" height="22" fill="#c96f22"/>
+  <rect x="556" y="150" width="22" height="14" fill="#e8862e" rx="2"/>
+  <rect x="548" y="692" width="38" height="8" fill="#c96f22"/>
+  <rect x="253" y="148" width="14" height="6" fill="#e8862e"/>
+  <line x1="260" y1="154" x2="260" y2="200" stroke="#e8862e" stroke-width="1.5"/>
+  <rect x="254" y="200" width="12" height="10" fill="#e8862e" rx="2"/>
+  <rect x="220" y="200" width="80" height="10" fill="#2b3a47"/>
+  <path d="M120 744H520M120 737v14M116 748l8 -8M220 737v14M216 748l8 -8M320 737v14M316 748l8 -8M420 737v14M416 748l8 -8M520 737v14M516 748l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="640" viewBox="0 0 720 640">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (hero image, 1440 x 1280 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d5a74"/><stop offset="1" stop-color="#1f3345"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f3040"/><stop offset="1" stop-color="#172431"/></linearGradient>
+    <pattern id="minor" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/></pattern>
+    <pattern id="major" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/></pattern>
+    <pattern id="curtain" x="96" y="128" width="27.5" height="36" patternUnits="userSpaceOnUse"><path d="M0 0V36" stroke="#b9c9d6" stroke-opacity="0.28" stroke-width="1"/><path d="M0 0H27.5" stroke="#d6e0e8" stroke-opacity="0.45" stroke-width="1.5"/></pattern>
+  </defs>
+  <rect x="0" y="0" width="720" height="640" fill="url(#sky)"/>
+  <rect x="0" y="0" width="720" height="640" fill="url(#minor)"/>
+  <rect x="0" y="0" width="720" height="640" fill="url(#major)"/>
+  <!-- Foundations -->
+  <rect x="0" y="560" width="720" height="80" fill="#131e29"/>
+  <path d="M96 560v44h220v-44M356 560v30h240v-30" fill="none" stroke="#8fa3b5" stroke-opacity="0.45" stroke-width="1.25" stroke-dasharray="6 6"/>
+  <path d="M126 560v58" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <path d="M176 560v58" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <path d="M236 560v58" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <path d="M286 560v58" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <path d="M386 560v44" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <path d="M446 560v44" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <path d="M506 560v44" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <path d="M566 560v44" fill="none" stroke="#8fa3b5" stroke-opacity="0.3" stroke-width="1.25" stroke-dasharray="4 5"/>
+  <!-- Completed glass tower -->
+  <rect x="150" y="96" width="112" height="24" fill="#26394b" stroke="#8fa3b5" stroke-opacity="0.6" stroke-width="1.25"/>
+  <rect x="90" y="120" width="232" height="8" fill="#8fa3b5"/>
+  <rect x="96" y="128" width="220" height="432" fill="url(#glass)"/>
+  <rect x="96" y="128" width="220" height="432" fill="url(#curtain)"/>
+  <polygon points="96,128 196,128 96,300" fill="#ffffff" fill-opacity="0.07"/>
+  <polygon points="236,128 280,128 96,448 96,372" fill="#ffffff" fill-opacity="0.05"/>
+  <rect x="96" y="128" width="220" height="432" fill="none" stroke="#8fa3b5" stroke-width="1.5"/>
+  <rect x="176" y="522" width="60" height="38" fill="#0f1922"/>
+  <rect x="164" y="514" width="84" height="8" fill="#e8862e"/>
+  <!-- Structure under construction -->
+  <rect x="356" y="516" width="240" height="44" fill="#2a3f53"/>
+  <rect x="368" y="528" width="36" height="24" fill="#101b25"/>
+  <rect x="428" y="528" width="36" height="24" fill="#101b25"/>
+  <rect x="488" y="528" width="36" height="24" fill="#101b25"/>
+  <rect x="548" y="528" width="36" height="24" fill="#101b25"/>
+  <rect x="356" y="472" width="240" height="44" fill="#2a3f53"/>
+  <rect x="368" y="484" width="36" height="24" fill="#101b25"/>
+  <rect x="428" y="484" width="36" height="24" fill="#101b25"/>
+  <rect x="488" y="484" width="36" height="24" fill="#101b25"/>
+  <rect x="548" y="484" width="36" height="24" fill="#101b25"/>
+  <path d="M476 340 536 428M536 340 476 428" stroke="#8fa3b5" stroke-width="2" fill="none"/>
+  <rect x="353" y="296" width="6" height="264" fill="#8fa3b5"/>
+  <path d="M354 296v-18M358 296v-14" stroke="#8fa3b5" stroke-width="1.5" fill="none"/>
+  <rect x="413" y="296" width="6" height="264" fill="#8fa3b5"/>
+  <path d="M414 296v-18M418 296v-14" stroke="#8fa3b5" stroke-width="1.5" fill="none"/>
+  <rect x="473" y="296" width="6" height="264" fill="#8fa3b5"/>
+  <path d="M474 296v-18M478 296v-14" stroke="#8fa3b5" stroke-width="1.5" fill="none"/>
+  <rect x="533" y="296" width="6" height="264" fill="#8fa3b5"/>
+  <path d="M534 296v-18M538 296v-14" stroke="#8fa3b5" stroke-width="1.5" fill="none"/>
+  <rect x="593" y="296" width="6" height="264" fill="#8fa3b5"/>
+  <path d="M594 296v-18M598 296v-14" stroke="#8fa3b5" stroke-width="1.5" fill="none"/>
+  <rect x="350" y="516" width="252" height="7" fill="#c5d0d9"/>
+  <rect x="350" y="472" width="252" height="7" fill="#c5d0d9"/>
+  <rect x="350" y="428" width="252" height="7" fill="#c5d0d9"/>
+  <rect x="350" y="384" width="252" height="7" fill="#c5d0d9"/>
+  <rect x="350" y="340" width="252" height="7" fill="#c5d0d9"/>
+  <rect x="350" y="296" width="252" height="7" fill="#c5d0d9"/>
+  <!-- Scaffolding -->
+  <path d="M608 300V560M628 300V560M604 519h28M604 475h28M604 431h28M604 387h28M604 343h28M604 299h28M608 560L628 519M608 516L628 475M608 472L628 431M608 428L628 387M608 384L628 343M608 340L628 299" fill="none" stroke="#6f8aa1" stroke-width="1.5"/>
+  <!-- Tower crane -->
+  <path d="M648 560V150M664 560V150M648 560L664 544M664 544L648 528M648 528L664 512M664 512L648 496M648 496L664 480M664 480L648 464M648 464L664 448M664 448L648 432M648 432L664 416M664 416L648 400M648 400L664 384M664 384L648 368M648 368L664 352M664 352L648 336M648 336L664 320M664 320L648 304M648 304L664 288M664 288L648 272M648 272L664 256M664 256L648 240M648 240L664 224M664 224L648 208M648 208L664 192M664 192L648 176M648 176L664 160" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <rect x="632" y="552" width="48" height="8" fill="#c96f22"/>
+  <rect x="642" y="150" width="28" height="18" fill="#e8862e" rx="2"/>
+  <rect x="646" y="154" width="12" height="8" fill="#101b25" rx="1"/>
+  <path d="M380 126H712M380 138H664M380 126V138M380 126L404 138M404 138L428 126M428 126L452 138M452 138L476 126M476 126L500 138M500 138L524 126M524 126L548 138M548 138L572 126M572 126L596 138M596 138L620 126M620 126L644 138M644 138L664 126" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <path d="M648 126 656 84 664 126M656 84 470 126M656 84 712 128" fill="none" stroke="#e8862e" stroke-width="1.5"/>
+  <rect x="686" y="126" width="24" height="26" fill="#c96f22"/>
+  <rect x="462" y="138" width="16" height="7" fill="#f3b06b"/>
+  <path d="M470 145V226" stroke="#f3b06b" stroke-width="1.5" fill="none"/>
+  <rect x="463" y="226" width="14" height="12" fill="#f3b06b" rx="2"/>
+  <path d="M470 238 428 262M470 238 512 262" stroke="#f3b06b" stroke-width="1.25" fill="none"/>
+  <rect x="416" y="262" width="108" height="9" fill="#e8862e"/>
+  <!-- Dimension lines -->
+  <path d="M56 128H90M56 560H90" stroke="#8fa3b5" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="3 4" fill="none"/>
+  <path d="M64 128V560M57 128h14M60 132l8 -8M57 344h14M60 348l8 -8M57 560h14M60 564l8 -8" fill="none" stroke="#c5d0d9" stroke-opacity="0.7" stroke-width="1.25"/>
+  <path d="M96 604H316M96 597v14M92 608l8 -8M316 597v14M312 608l8 -8" fill="none" stroke="#c5d0d9" stroke-opacity="0.7" stroke-width="1.25"/>
+  <path d="M356 604H596M356 597v14M352 608l8 -8M416 597v14M412 608l8 -8M476 597v14M472 608l8 -8M536 597v14M532 608l8 -8M596 597v14M592 608l8 -8" fill="none" stroke="#c5d0d9" stroke-opacity="0.7" stroke-width="1.25"/>
+  <path d="M340 519l-8 -6h16z" fill="#e8862e" fill-opacity="0.85"/>
+  <path d="M340 475l-8 -6h16z" fill="#e8862e" fill-opacity="0.85"/>
+  <path d="M340 431l-8 -6h16z" fill="#e8862e" fill-opacity="0.85"/>
+  <path d="M340 387l-8 -6h16z" fill="#e8862e" fill-opacity="0.85"/>
+  <path d="M340 343l-8 -6h16z" fill="#e8862e" fill-opacity="0.85"/>
+  <path d="M340 299l-8 -6h16z" fill="#e8862e" fill-opacity="0.85"/>
+  <line x1="24" y1="560" x2="696" y2="560" stroke="#8fa3b5" stroke-width="2"/>
+</svg>

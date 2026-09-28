@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (project image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#f1ede6"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="500" width="800" height="100" fill="#d9d2c5"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <line x1="120" y1="500" x2="120" y2="444" stroke="#6f8878" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="406.56" r="52" fill="#8fa597"/>
+  <circle cx="134.56" cy="416.96" r="32.24" fill="#6f8878" fill-opacity="0.35"/>
+  <rect x="180" y="372" width="360" height="128" fill="#fbfaf7" stroke="#14202b" stroke-opacity="0.2"/>
+  <path d="M208 392h62v108h-62zM278 392h62v108h-62zM348 392h62v108h-62zM418 392h62v108h-62z" fill="url(#glassL)"/>
+  <path d="M239 392v108M309 392v108M379 392v108M449 392v108" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="2"/>
+  <rect x="300" y="262" width="350" height="110" fill="#2b3a47"/>
+  <path d="M312 262V372M324 262V372M336 262V372M348 262V372M360 262V372M372 262V372M384 262V372M396 262V372M408 262V372M420 262V372M432 262V372M444 262V372M456 262V372M468 262V372M480 262V372M492 262V372M504 262V372M516 262V372M528 262V372M540 262V372M552 262V372M564 262V372M576 262V372M588 262V372M600 262V372M612 262V372M624 262V372M636 262V372M648 262V372" stroke="#ffffff" stroke-opacity="0.08" stroke-width="4"/>
+  <rect x="330" y="292" width="250" height="46" fill="url(#glassL)"/>
+  <rect x="300" y="370" width="350" height="4" fill="#e8862e"/>
+  <rect x="292" y="254" width="366" height="8" fill="#14202b"/>
+  <rect x="172" y="364" width="128" height="8" fill="#14202b"/>
+  <path d="M486 380V500M494 380V500M502 380V500M510 380V500M518 380V500M526 380V500" stroke="#c9a27a" stroke-width="4"/>
+  <rect x="560" y="500" width="190" height="14" fill="#9bb7c8"/>
+  <path d="M540 226H650M540 219v14M536 230l8 -8M650 219v14M646 230l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+</svg>

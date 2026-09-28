@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (gallery image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#e5e9ec"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="520" width="800" height="80" fill="#cfd7de"/>
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="130" y="460" width="500" height="8" fill="#3e566b"/>
+  <rect x="130" y="400" width="500" height="8" fill="#3e566b"/>
+  <rect x="130" y="340" width="500" height="8" fill="#3e566b"/>
+  <rect x="130" y="280" width="500" height="8" fill="#3e566b"/>
+  <rect x="130" y="220" width="500" height="8" fill="#3e566b"/>
+  <rect x="136" y="200" width="8" height="320" fill="#2b3a47"/>
+  <rect x="216" y="200" width="8" height="320" fill="#2b3a47"/>
+  <rect x="296" y="200" width="8" height="320" fill="#2b3a47"/>
+  <rect x="376" y="200" width="8" height="320" fill="#2b3a47"/>
+  <rect x="456" y="200" width="8" height="320" fill="#2b3a47"/>
+  <rect x="536" y="200" width="8" height="320" fill="#2b3a47"/>
+  <rect x="616" y="200" width="8" height="320" fill="#2b3a47"/>
+  <path d="M300 260 380 320M380 260 300 320M460 380 540 440M540 380 460 440" stroke="#3e566b" stroke-width="3"/>
+  <path d="M690 520V120M704 520V120M690 520L704 506M704 506L690 492M690 492L704 478M704 478L690 464M690 464L704 450M704 450L690 436M690 436L704 422M704 422L690 408M690 408L704 394M704 394L690 380M690 380L704 366M704 366L690 352M690 352L704 338M704 338L690 324M690 324L704 310M704 310L690 296M690 296L704 282M704 282L690 268M690 268L704 254M704 254L690 240M690 240L704 226M704 226L690 212M690 212L704 198M704 198L690 184M690 184L704 170M704 170L690 156M690 156L704 142M704 142L690 128" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <path d="M250 108H780M250 118H704M250 108v10M250 108L270 118M270 118L290 108M290 108L310 118M310 118L330 108M330 108L350 118M350 118L370 108M370 108L390 118M390 118L410 108M410 108L430 118M430 118L450 108M450 108L470 118M470 118L490 108M490 108L510 118M510 118L530 108M530 108L550 118M550 118L570 108M570 108L590 118M590 118L610 108M610 108L630 118M630 118L650 108M650 108L670 118M670 118L690 108" fill="none" stroke="#e8862e" stroke-width="2"/>
+  <path d="M690 108L697 72L704 108M697 72L404.0 108M697 72L780 110" fill="none" stroke="#e8862e" stroke-width="1.5"/>
+  <rect x="754" y="109" width="22" height="22" fill="#c96f22"/>
+  <rect x="686" y="120" width="22" height="14" fill="#e8862e" rx="2"/>
+  <rect x="678" y="512" width="38" height="8" fill="#c96f22"/>
+  <rect x="353" y="118" width="14" height="6" fill="#e8862e"/>
+  <line x1="360" y1="124" x2="360" y2="170" stroke="#e8862e" stroke-width="1.5"/>
+  <rect x="354" y="170" width="12" height="10" fill="#e8862e" rx="2"/>
+  <rect x="320" y="180" width="80" height="8" fill="#e8862e"/>
+  <path d="M360 170 330 180M360 170 390 180" stroke="#e8862e" stroke-width="1.25"/>
+</svg>

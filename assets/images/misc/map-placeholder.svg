@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <!-- Aldervane template map placeholder. Replace with an embedded map when you are ready (see documentation). -->
+  <rect x="0" y="0" width="960" height="600" fill="#e8e4dc"/>
+  <path d="M20 20h150v110h-150zM190 20h150v110h-150zM380 20h130v110h-130zM560 20h150v110h-150zM760 20h150v110h-150zM30 150h150v100h-150zM200 150h150v100h-150zM390 150h130v100h-130zM570 150h150v100h-150zM770 150h150v100h-150zM20 300h150v110h-150zM190 300h150v110h-150zM380 300h130v110h-130zM560 300h150v110h-150zM760 300h150v110h-150zM30 440h150v110h-150zM200 440h150v110h-150zM390 440h130v110h-130zM570 440h150v110h-150zM770 440h150v110h-150z" fill="#dcd6cb"/>
+  <path d="M-20 520C160 470 260 560 430 520S740 420 980 470" fill="none" stroke="#b7c9d5" stroke-width="46"/>
+  <rect x="200" y="310" width="140" height="90" fill="#c9d6c9" rx="10"/>
+  <rect x="770" y="30" width="150" height="100" fill="#c9d6c9" rx="10"/>
+  <path d="M0 135H960M0 285H960M170 0V600M360 0V600M740 0V600" stroke="#ffffff" stroke-width="14"/>
+  <path d="M0 425H960M540 0V600" stroke="#ffffff" stroke-width="22"/>
+  <path d="M0 425H960M540 0V600" stroke="#f3dcc2" stroke-width="6"/>
+  <path d="M-10 40L980 560" stroke="#ffffff" stroke-width="10" stroke-opacity="0.8"/>
+  <circle cx="540" cy="285" r="64" fill="#e8862e" fill-opacity="0.16"/>
+  <circle cx="540" cy="285" r="34" fill="#e8862e" fill-opacity="0.25"/>
+  <path d="M540 300c-4-10-26-30-26-52a26 26 0 0 1 52 0c0 22-22 42-26 52z" fill="#e8862e" stroke="#14202b" stroke-width="3"/>
+  <circle cx="540" cy="248" r="9" fill="#14202b"/>
+</svg>

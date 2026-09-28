@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (project image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#e5e9ec"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="500" width="800" height="100" fill="#cfd7de"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#14202b" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="500" y="110" width="28" height="170" fill="#dfe4e8" stroke="#14202b" stroke-opacity="0.3"/>
+  <rect x="500" y="122" width="28" height="12" fill="#e8862e"/>
+  <rect x="500" y="150" width="28" height="12" fill="#e8862e"/>
+  <rect x="110" y="284" width="450" height="216" fill="#d3dbe1" stroke="#14202b" stroke-opacity="0.3"/>
+  <polygon points="110,284 110,244 185,284" fill="#2b3a47"/>
+  <path d="M113 280V250" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="185,284 185,244 260,284" fill="#2b3a47"/>
+  <path d="M188 280V250" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="260,284 260,244 335,284" fill="#2b3a47"/>
+  <path d="M263 280V250" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="335,284 335,244 410,284" fill="#2b3a47"/>
+  <path d="M338 280V250" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="410,284 410,244 485,284" fill="#2b3a47"/>
+  <path d="M413 280V250" stroke="#a9bccb" stroke-width="5"/>
+  <polygon points="485,284 485,244 560,284" fill="#2b3a47"/>
+  <path d="M488 280V250" stroke="#a9bccb" stroke-width="5"/>
+  <path d="M110 300H560M110 316H560M110 332H560M110 348H560M110 364H560M110 380H560M110 396H560M110 412H560M110 428H560M110 444H560M110 460H560M110 476H560M110 492H560" stroke="#14202b" stroke-opacity="0.08"/>
+  <rect x="150" y="390" width="90" height="110" fill="#8b9aa7"/>
+  <path d="M150 398h90M150 406h90M150 414h90M150 422h90M150 430h90M150 438h90M150 446h90M150 454h90M150 462h90M150 470h90M150 478h90M150 486h90M150 494h90" stroke="#14202b" stroke-opacity="0.2"/>
+  <rect x="280" y="330" width="230" height="34" fill="url(#glassL)"/>
+  <path d="M560 312H600M560 326H660" stroke="#3e566b" stroke-width="6" stroke-linecap="round"/>
+  <rect x="590" y="230" width="62" height="270" fill="#eef1f3" stroke="#14202b" stroke-opacity="0.3"/>
+  <polygon points="590,230 621,196 652,230" fill="#2b3a47"/>
+  <path d="M590 262h62M590 302h62M590 342h62M590 382h62M590 422h62M590 462h62" stroke="#14202b" stroke-opacity="0.15" stroke-width="2"/>
+  <path d="M642 240V490" stroke="#3e566b" stroke-width="2"/>
+  <rect x="666" y="230" width="62" height="270" fill="#eef1f3" stroke="#14202b" stroke-opacity="0.3"/>
+  <polygon points="666,230 697,196 728,230" fill="#2b3a47"/>
+  <path d="M666 262h62M666 302h62M666 342h62M666 382h62M666 422h62M666 462h62" stroke="#14202b" stroke-opacity="0.15" stroke-width="2"/>
+  <path d="M718 240V490" stroke="#3e566b" stroke-width="2"/>
+  <path d="M76 244V500M69 244h14M72 248l8 -8M69 500h14M72 504l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (blog image, 1200 x 750 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="br" width="40" height="20" patternUnits="userSpaceOnUse"><rect width="40" height="20" fill="#b06a4f"/><path d="M0 0.5H40M0 10.5H40M10 0.5V10.5M30 10.5V20.5" stroke="#ead9ca" stroke-width="1.5"/></pattern>
+    <pattern id="tb" width="16" height="400" patternUnits="userSpaceOnUse"><rect width="16" height="400" fill="#c9a27a"/><path d="M0.5 0V400" stroke="#9d7a57" stroke-width="1.5"/><path d="M8 60c3 20 3 40 0 60M8 240c-3 25-3 50 0 70" fill="none" stroke="#9d7a57" stroke-opacity="0.5"/></pattern>
+    <pattern id="cc" width="30" height="30" patternUnits="userSpaceOnUse"><rect width="30" height="30" fill="#cfc8bb"/><circle cx="7" cy="9" r="1.6" fill="#a39b8d"/><circle cx="21" cy="19" r="1.2" fill="#a39b8d"/><circle cx="14" cy="26" r="0.9" fill="#a39b8d"/></pattern>
+    <linearGradient id="st" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe6ec"/><stop offset="1" stop-color="#8fa3b5"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" fill="#f4f2ee"/>
+  <rect x="60" y="70" width="150" height="360" fill="url(#br)" rx="6"/>
+  <rect x="240" y="70" width="150" height="360" fill="url(#tb)" rx="6"/>
+  <rect x="420" y="70" width="150" height="360" fill="url(#cc)" rx="6"/>
+  <rect x="600" y="70" width="150" height="360" fill="url(#st)" rx="6"/>
+  <path d="M600 150h150M600 250h150M600 350h150" stroke="#ffffff" stroke-opacity="0.7" stroke-width="2"/>
+  <rect x="60" y="448" width="690" height="4" fill="#e8862e"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Aldervane template placeholder illustration. Replace with your own licensed photo (gallery image, 1200 x 900 px, WebP or AVIF) — see documentation. -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#14202b" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <pattern id="earth" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V12" stroke="#14202b" stroke-opacity="0.18" stroke-width="1.5"/></pattern>
+    <linearGradient id="glassL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa2b6"/><stop offset="1" stop-color="#4d667b"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="#f1eee8"/>
+  <rect x="0" y="0" width="800" height="600" fill="url(#grid)"/>
+  <rect x="0" y="440" width="800" height="160" fill="url(#earth)"/>
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#14202b" stroke-width="2.5"/>
+  <rect x="180" y="440" width="440" height="90" fill="#f1eee8" stroke="#14202b" stroke-width="3"/>
+  <rect x="172" y="100" width="456" height="8" fill="#2b3a47"/>
+  <rect x="172" y="170" width="456" height="8" fill="#2b3a47"/>
+  <rect x="172" y="240" width="456" height="8" fill="#2b3a47"/>
+  <rect x="172" y="310" width="456" height="8" fill="#2b3a47"/>
+  <rect x="172" y="380" width="456" height="8" fill="#2b3a47"/>
+  <path d="M180 100V440M620 100V440" stroke="#14202b" stroke-width="3"/>
+  <path d="M420 530 490 470M420 470l70-60M420 400l70-60M420 330l70-60M420 260l70-60M420 190l70-60" stroke="#3e566b" stroke-width="2"/>
+  <path d="M650 100l-9 -9h18z" fill="#e8862e"/>
+  <line x1="662" y1="100" x2="700" y2="100" stroke="#14202b" stroke-opacity="0.4"/>
+  <path d="M650 170l-9 -9h18z" fill="#e8862e"/>
+  <line x1="662" y1="170" x2="700" y2="170" stroke="#14202b" stroke-opacity="0.4"/>
+  <path d="M650 240l-9 -9h18z" fill="#e8862e"/>
+  <line x1="662" y1="240" x2="700" y2="240" stroke="#14202b" stroke-opacity="0.4"/>
+  <path d="M650 310l-9 -9h18z" fill="#e8862e"/>
+  <line x1="662" y1="310" x2="700" y2="310" stroke="#14202b" stroke-opacity="0.4"/>
+  <path d="M650 380l-9 -9h18z" fill="#e8862e"/>
+  <line x1="662" y1="380" x2="700" y2="380" stroke="#14202b" stroke-opacity="0.4"/>
+  <path d="M650 440l-9 -9h18z" fill="#e8862e"/>
+  <line x1="662" y1="440" x2="700" y2="440" stroke="#14202b" stroke-opacity="0.4"/>
+  <rect x="190" y="120" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="520" y="120" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="190" y="190" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="520" y="190" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="190" y="260" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="520" y="260" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="190" y="330" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="520" y="330" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="190" y="400" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="520" y="400" width="90" height="44" fill="url(#glassL)"/>
+  <rect x="210" y="66" width="120" height="34" fill="#b9b1a3"/>
+  <path d="M120 100V530M113 100h14M116 104l8 -8M113 440h14M116 444l8 -8M113 530h14M116 534l8 -8" fill="none" stroke="#14202b" stroke-opacity="0.55" stroke-width="1.25"/>
+</svg>

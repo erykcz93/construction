@@ -1,0 +1,64 @@
+/* ==========================================================================
+   No-JavaScript fallback
+   Loaded only inside <noscript> in the page <head>. It makes every feature
+   usable without JavaScript: the navigation is shown as a simple list,
+   FAQ answers are expanded and JavaScript-only controls are hidden.
+   ========================================================================== */
+
+.site-header {
+    position: static;
+}
+
+.site-header__inner {
+    flex-wrap: wrap;
+    padding-block: var(--space-sm);
+}
+
+.nav-toggle,
+.site-nav__extra,
+.filter,
+.filter__status {
+    display: none;
+}
+
+.site-nav {
+    position: static;
+    order: 3;
+    width: 100%;
+    padding: 0;
+    overflow: visible;
+    background: none;
+    border: 0;
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+}
+
+.site-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2xs) var(--space-lg);
+}
+
+.site-nav__link {
+    min-height: 2.75rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: var(--weight-medium);
+    border: 0;
+}
+
+@media (min-width: 75em) {
+    .site-nav {
+        order: 0;
+        width: auto;
+    }
+}
+
+.accordion__panel[hidden] {
+    display: block !important;
+}
+
+.accordion__icon {
+    display: none;
+}
