@@ -1,0 +1,9 @@
+# robots.txt
+# Replace https://www.example.com with your own domain before going live.
+
+User-agent: *
+Allow: /
+Disallow: /php/
+Disallow: /documentation/
+
+Sitemap: https://www.example.com/sitemap.xml
